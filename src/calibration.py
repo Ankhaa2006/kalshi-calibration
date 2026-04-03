@@ -28,9 +28,13 @@ def get_noaa_highs():
                 "limit": 1000
             }
         )
+        if r.status_code != 200 or not r.text.strip():
+            print(f"  Warning: NOAA returned empty for {start} to {end} (status {r.status_code})")
+            continue
         for obs in r.json().get("results", []):
             date = obs["date"][:10]
             all_highs[date] = float(obs["value"])
+        print(f"  Fetched {start} to {end}: ok")
     return all_highs
 
 # ── 2. Kalshi settled markets ─────────────────────────────────────────────
