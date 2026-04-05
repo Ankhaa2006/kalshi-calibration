@@ -44,7 +44,7 @@ def get_6am_price(series_ticker, market_ticker, date_str, retries=3):
 
 def load_noaa_cache():
     cache = {}
-    for start, end in [("2025-12-01","2025-12-31"), ("2026-01-01","2026-03-31")]:
+    for start, end in [("2024-01-01","2024-12-31"), ("2025-01-01","2025-12-31"), ("2026-01-01","2026-03-31")]:
         r = requests.get(
             "https://www.ncdc.noaa.gov/cdo-web/api/v2/data",
             headers={"token": NOAA_TOKEN},

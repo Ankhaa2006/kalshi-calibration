@@ -83,4 +83,5 @@ print(f"Events with resolved winner: {len(results)}\n")
 print(f"{'Event':<25} {'Winning Bucket':<45} {'Last Price':>10} {'Volume':>10}")
 print("-" * 95)
 for r in results[-20:]:
-    print(f"{r['event']:<25} {r['winning_ticker']:<45} {str(r['last_price']):>10} {str(r['volume']):>10}")
+    print(f"{r['event']:<25} {r['winning_ticker']:<45} {str(r['last_price']):>10} {str(r['volume']):>10}") 
+    

@@ -35,7 +35,7 @@ def get_noaa_highs():
             date = obs["date"][:10]
             all_highs[date] = float(obs["value"])
         print(f"  Fetched {start} to {end}: ok")
-    return all_highs
+        return all_highs
 
 # ── 2. Kalshi settled markets ─────────────────────────────────────────────
 
