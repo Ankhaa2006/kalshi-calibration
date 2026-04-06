@@ -67,7 +67,27 @@ def get_nws_forecast_high(target_date_str):
 # ── 4. Write to CSV ───────────────────────────────────────────────────────
 
 def append_to_csv(rows):
+    existing = set()
     file_exists = DATA_FILE.exists()
+
+    if file_exists:
+        with open(DATA_FILE, "r") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # Deduplicate by target_date + ticker + hour of collection
+                key = (row["target_date"], row["ticker"])
+                existing.add(key)
+
+    new_rows = []
+    for row in rows:
+        key = (row["target_date"], row["ticker"])
+        if key not in existing:
+            new_rows.append(row)
+
+    if not new_rows:
+        print("  No new rows to write (already collected this hour)")
+        return
+
     with open(DATA_FILE, "a", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=[
             "collected_at", "target_date", "ticker",
@@ -76,8 +96,8 @@ def append_to_csv(rows):
         ])
         if not file_exists:
             writer.writeheader()
-        writer.writerows(rows)
-    print(f"  Wrote {len(rows)} rows to {DATA_FILE}")
+        writer.writerows(new_rows)
+    print(f"  Wrote {len(new_rows)} rows to {DATA_FILE}")
 
 # ── 5. Backfill actual results for past observations ─────────────────────
 
