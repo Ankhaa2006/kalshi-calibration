@@ -1,0 +1,51 @@
+
+=== Daily Collection Run ===
+Time: 2026-04-06 18:00 UTC
+
+Backfilling past results...
+
+Fetching open buckets...
+  Found 4 range buckets
+  Target date: 2026-04-07
+
+Fetching NWS forecast...
+  NWS predicted high: 51°F
+
+Collecting bucket prices...
+  60-61°  price=0.005  
+  58-59°  price=0.015  
+  56-57°  price=0.245  
+  54-55°  price=0.62  
+
+Saving...
+  No new rows to write (already collected this hour)
+
+Done!
+
+=== Daily Collection Run ===
+Time: 2026-04-07 18:14 UTC
+
+Backfilling past results...
+
+=== Daily Collection Run ===
+Time: 2026-04-08 21:00 UTC
+
+Backfilling past results...
+
+Fetching open buckets...
+  Found 4 range buckets
+  Target date: 2026-04-09
+
+Fetching NWS forecast...
+  NWS predicted high: 54°F
+
+Collecting bucket prices...
+  52-53°  price=0.025  
+  50-51°  price=0.975  
+  48-49°  price=0.005  
+  46-47°  price=0.005  
+
+Saving...
+  No new rows to write (already collected this hour)
+
+Done!
