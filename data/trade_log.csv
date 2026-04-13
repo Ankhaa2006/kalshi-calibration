@@ -1,0 +1,4 @@
+timestamp,ticker,side,action,count,price_cents,cost,order_id,client_order_id,dry_run,pnl,result
+2026-04-13 12:22 UTC,KXHIGHNY-26APR13-T81,yes,buy,5,5,0.25,simulated,a77cea97-0b4a-4961-98b3-9ef7b8f07048,True,,
+2026-04-13 12:34 UTC,KXHIGHNY-26APR13-T81,yes,buy,10,6,0.6,simulated,7e44e2a8-6daf-40bc-a894-8523fe8a42d4,True,,
+2026-04-13 12:34 UTC,KXHIGHNY-26APR13-B78.5,no,buy,1,57,0.57,simulated,ff079621-398c-4322-904d-9380e325e8ec,True,,
