@@ -2,3 +2,7 @@ timestamp,ticker,side,action,count,price_cents,cost,order_id,client_order_id,dry
 2026-04-13 12:22 UTC,KXHIGHNY-26APR13-T81,yes,buy,5,5,0.25,simulated,a77cea97-0b4a-4961-98b3-9ef7b8f07048,True,,
 2026-04-13 12:34 UTC,KXHIGHNY-26APR13-T81,yes,buy,10,6,0.6,simulated,7e44e2a8-6daf-40bc-a894-8523fe8a42d4,True,,
 2026-04-13 12:34 UTC,KXHIGHNY-26APR13-B78.5,no,buy,1,57,0.57,simulated,ff079621-398c-4322-904d-9380e325e8ec,True,,
+2026-04-13 17:59 UTC,KXHIGHNY-26APR13-T81,yes,buy,10,6,0.6,simulated,3e46ff9e-846d-4fee-85cf-e35ff6caecec,True,,
+2026-04-13 17:59 UTC,KXHIGHNY-26APR13-B78.5,no,buy,1,57,0.57,simulated,2f2e7b6c-5770-41f0-88aa-297ebb1b0ad9,True,,
+2026-04-13 18:06 UTC,KXHIGHNY-26APR13-T81,yes,buy,10,6,0.6,simulated,1be31817-1675-4f5a-affe-ce0bb3f2e4b6,True,,
+2026-04-13 18:06 UTC,KXHIGHNY-26APR13-B78.5,no,buy,1,57,0.57,simulated,2cdfe9fb-5ad2-49cf-b222-10dd98ae5675,True,,
