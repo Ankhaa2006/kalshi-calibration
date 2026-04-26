@@ -311,3 +311,35 @@ Saving...
   Wrote 4 rows to /Users/ankhbayarbatkhurel/kalshi-calibration/data/daily_observations.csv
 
 Done!
+
+=== Daily Collection Run ===
+Time: 2026-04-25 21:00 UTC
+
+Backfilling past results...
+  Backfilled 4 fields
+
+Fetching open buckets...
+  Found 4 range buckets
+  Target date: 2026-04-26
+
+Fetching NWS forecast...
+  NWS predicted high: 53°F
+
+Collecting bucket prices...
+  57-58°  price=0.005  
+  55-56°  price=0.005  
+  53-54°  price=0.005  ← NWS target
+  51-52°  price=0.005  
+
+Saving...
+  Wrote 4 rows to /Users/ankhbayarbatkhurel/kalshi-calibration/data/daily_observations.csv
+
+Done!
+
+=== Daily Collection Run ===
+Time: 2026-04-26 21:08 UTC
+
+Backfilling past results...
+  Nothing to backfill yet
+
+Fetching open buckets...
