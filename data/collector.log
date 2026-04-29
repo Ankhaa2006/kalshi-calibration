@@ -343,3 +343,51 @@ Backfilling past results...
   Nothing to backfill yet
 
 Fetching open buckets...
+
+=== Daily Collection Run ===
+Time: 2026-04-27 21:00 UTC
+
+Backfilling past results...
+  Backfilled 8 fields
+
+Fetching open buckets...
+  Found 4 range buckets
+  Target date: 2026-04-28
+
+Fetching NWS forecast...
+  NWS predicted high: 57°F
+
+Collecting bucket prices...
+  68-69°  price=0.995  
+  66-67°  price=0.005  
+  64-65°  price=0.005  
+  62-63°  price=0.005  
+
+Saving...
+  Wrote 4 rows to /Users/ankhbayarbatkhurel/kalshi-calibration/data/daily_observations.csv
+
+Done!
+
+=== Daily Collection Run ===
+Time: 2026-04-28 21:00 UTC
+
+Backfilling past results...
+  Backfilled 8 fields
+
+Fetching open buckets...
+  Found 4 range buckets
+  Target date: 2026-04-29
+
+Fetching NWS forecast...
+  NWS predicted high: 55°F
+
+Collecting bucket prices...
+  65-66°  price=0.995  
+  63-64°  price=0.005  
+  61-62°  price=0.005  
+  59-60°  price=0.005  
+
+Saving...
+  Wrote 4 rows to /Users/ankhbayarbatkhurel/kalshi-calibration/data/daily_observations.csv
+
+Done!

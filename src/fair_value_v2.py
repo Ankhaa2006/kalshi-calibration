@@ -74,9 +74,27 @@ def extract_market_distribution(buckets):
 
     return range_buckets, threshold_above, threshold_below
 
-def market_implied_stats(range_buckets):
-    mean = sum(b["mid_temp"] * b["prob"] for b in range_buckets)
-    variance = sum(b["prob"] * (b["mid_temp"] - mean)**2 for b in range_buckets)
+def market_implied_stats(range_buckets, thresh_above=None, thresh_below=None):
+    """
+    Compute mean and std using ALL buckets including thresholds.
+    Threshold buckets get assigned a representative temperature.
+    """
+    all_points = []
+
+    for b in range_buckets:
+        all_points.append((b["mid_temp"], b["prob"]))
+
+    if thresh_above:
+        rep_temp = thresh_above["floor"] + 2
+        all_points.append((rep_temp, thresh_above["prob"]))
+
+    if thresh_below:
+        rep_temp = thresh_below["cap"] - 2
+        all_points.append((rep_temp, thresh_below["prob"]))
+
+    total_prob = sum(p for _, p in all_points)
+    mean = sum(t * p for t, p in all_points) / total_prob
+    variance = sum(p * (t - mean)**2 for t, p in all_points) / total_prob
     return mean, variance ** 0.5
 
 def get_nws_forecast(target_date):
@@ -96,9 +114,17 @@ def get_nws_forecast(target_date):
     except:
         return None, None
 
-def bayesian_update(market_mean, market_std, nws_mean, nws_std):
-    market_var = market_std ** 2
-    nws_var = nws_std ** 2
+def bayesian_update(market_mean, market_std, nws_mean, nws_std,
+                    market_weight=0.85, nws_weight=0.15):
+    """
+    Weighted Bayesian update combining market prior with NWS signal.
+    Weights reflect empirical accuracy from our observations:
+    - Market correct 4/5 times
+    - NWS correct 0/5 times at 24h lead for NYC
+    Default: 85% market, 15% NWS
+    """
+    market_var = (market_std ** 2) / market_weight
+    nws_var = (nws_std ** 2) / nws_weight
     posterior_var = 1 / (1/market_var + 1/nws_var)
     posterior_mean = posterior_var * (market_mean/market_var + nws_mean/nws_var)
     return posterior_mean, posterior_var ** 0.5
@@ -136,13 +162,18 @@ range_buckets, thresh_above, thresh_below = extract_market_distribution(buckets)
 
 # ── Stale market check ────────────────────────────────────────────────────
 max_range_price = max(b["raw_prob"] for b in range_buckets) if range_buckets else 0
-if max_range_price < 0.05:
-    print("\n⚠️  Market is near resolution — all range buckets below 5¢.")
-    print("   Prices are no longer informative for trading signals.")
+min_range_price = min(b["raw_prob"] for b in range_buckets) if range_buckets else 0
+
+if max_range_price < 0.05 or max_range_price > 0.90:
+    print("\n⚠️  Market is near resolution.")
+    if max_range_price > 0.90:
+        print(f"   One bucket at {max_range_price*100:.0f}¢ — market has already decided.")
+    else:
+        print("   All buckets below 5¢ — market near resolution.")
     print("   Run this model before noon ET (14:00 UTC) for meaningful output.")
     exit()
 
-market_mean, market_std = market_implied_stats(range_buckets)
+market_mean, market_std = market_implied_stats(range_buckets, thresh_above, thresh_below)
 
 print(f"\nMarket implied distribution:")
 print(f"  Mean: {market_mean:.1f}°F")
@@ -240,5 +271,6 @@ else:
     print("  No trades recommended — insufficient edge")
 
 print(f"\nNote: Model uses Gaussian conjugate update.")
-print(f"Market prior weighted equally with NWS signal.")
+print(f"Weights: 85% market, 15% NWS (based on 5 observed days)")
+print(f"Market accuracy: 4/5 days. NWS accuracy: 0/5 days.")
 print(f"Increase NWS weight as historical accuracy data accumulates.")
