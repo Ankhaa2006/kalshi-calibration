@@ -141,14 +141,14 @@ def log_trade(ticker, side, action, count, price_cents,
 if __name__ == "__main__":
     print(f"Balance: ${get_balance():.2f}\n")
 
-    # Paper trade today's signals
-    signals = [
-        ("KXHIGHNY-26APR13-T81", "yes", "buy", 10, 6),   # BUY YES >81°
-        ("KXHIGHNY-26APR13-B78.5", "no", "buy", 1, 57),  # BUY NO 78-79°
-    ]
-
-    for ticker, side, action, count, price in signals:
-        place_order(ticker, side, action, count, price, dry_run=True)
-
-    print(f"\nTrade log: {TRADE_LOG}")
-    print("Set dry_run=False to execute real orders")
+    # LIVE TRADE #1 — May 9th
+    # Signal: YES on <64° — model says 53%, market says 30.5%
+    # Edge after fee: 21%
+    place_order(
+        ticker="KXHIGHNY-26MAY08-T64",
+        side="yes",
+        action="buy",
+        count=3,
+        price_cents=31,
+        dry_run=False  # LIVE TRADE
+    )
