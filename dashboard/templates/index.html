@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kalshi Calibration Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <style>
+    :root {
+      --bg:      #0d1117;
+      --surface: #161b22;
+      --border:  #30363d;
+      --muted:   #8b949e;
+      --green:   #3fb950;
+      --red:     #f85149;
+      --yellow:  #d29922;
+      --blue:    #58a6ff;
+      --purple:  #bc8cff;
+    }
+    body { background: var(--bg); color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
+    .card-header { background: transparent; border-bottom: 1px solid var(--border); font-weight: 600; letter-spacing: .03em; color: var(--muted); font-size: .8rem; text-transform: uppercase; }
+    .stat-value { font-size: 2rem; font-weight: 700; line-height: 1; }
+    .stat-label { font-size: .75rem; color: var(--muted); margin-top: 4px; }
+    .green  { color: var(--green); }
+    .red    { color: var(--red); }
+    .yellow { color: var(--yellow); }
+    .blue   { color: var(--blue); }
+    .purple { color: var(--purple); }
+    .muted  { color: var(--muted); }
+    pre.signal-output {
+      background: #010409;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      font-size: .8rem;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: #c9d1d9;
+      max-height: 480px;
+      overflow-y: auto;
+    }
+    pre.signal-output .hi-buy  { color: var(--green); font-weight: 700; }
+    pre.signal-output .hi-warn { color: var(--yellow); }
+    .table { color: #c9d1d9; font-size: .82rem; }
+    .table th { color: var(--muted); font-weight: 500; border-color: var(--border); }
+    .table td { border-color: var(--border); vertical-align: middle; }
+    .badge-yes  { background: rgba(63,185,80,.18); color: var(--green);  border: 1px solid var(--green);  border-radius: 4px; padding: 2px 7px; font-size: .7rem; }
+    .badge-no   { background: rgba(248,81,73,.18);  color: var(--red);    border: 1px solid var(--red);    border-radius: 4px; padding: 2px 7px; font-size: .7rem; }
+    .badge-pend { background: rgba(210,153,34,.18); color: var(--yellow); border: 1px solid var(--yellow); border-radius: 4px; padding: 2px 7px; font-size: .7rem; }
+    .progress { height: 8px; background: var(--border); border-radius: 4px; }
+    .progress-bar { border-radius: 4px; }
+    .win-bar  { background: var(--green); }
+    .nws-bar  { background: var(--blue); }
+    #refreshBtn { font-size: .75rem; }
+    .ticker-mono { font-family: 'SF Mono', Consolas, monospace; font-size: .75rem; color: var(--muted); }
+    .section-title { font-size: .7rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: .5rem; }
+    .pulse { animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+    #lastUpdated { font-size: .72rem; }
+    .obs-table-wrap { max-height: 420px; overflow-y: auto; }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid py-3 px-4">
+
+  <!-- Header -->
+  <div class="d-flex align-items-center justify-content-between mb-3">
+    <div>
+      <h5 class="mb-0 fw-bold">Kalshi Calibration</h5>
+      <span class="muted" style="font-size:.75rem">KXHIGHNY · NYC High Temp</span>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+      <span id="lastUpdated" class="muted">—</span>
+      <div class="d-flex align-items-center gap-1 muted" style="font-size:.72rem">
+        <span class="pulse" style="color:var(--green);font-size:.6rem">●</span>
+        <span>auto-refresh 60s</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 1: stat cards -->
+  <div class="row g-3 mb-3">
+
+    <!-- Balance -->
+    <div class="col-6 col-md-3">
+      <div class="card h-100 p-3">
+        <div class="section-title">Balance</div>
+        <div class="stat-value green" id="balance">—</div>
+        <div class="stat-label">Kalshi portfolio</div>
+      </div>
+    </div>
+
+    <!-- Total invested -->
+    <div class="col-6 col-md-3">
+      <div class="card h-100 p-3">
+        <div class="section-title">Live Invested</div>
+        <div class="stat-value blue" id="totalInvested">—</div>
+        <div class="stat-label" id="tradeCountLabel">— trades</div>
+      </div>
+    </div>
+
+    <!-- Realized P&L -->
+    <div class="col-6 col-md-3">
+      <div class="card h-100 p-3">
+        <div class="section-title">Realized P&amp;L</div>
+        <div class="stat-value" id="realizedPnl">—</div>
+        <div class="stat-label" id="pnlDetail">— settled · — pending</div>
+      </div>
+    </div>
+
+    <!-- Market accuracy -->
+    <div class="col-6 col-md-3">
+      <div class="card h-100 p-3">
+        <div class="section-title">Market Win Rate</div>
+        <div class="stat-value purple" id="marketWinRate">—</div>
+        <div class="stat-label" id="marketWinDetail">days evaluated</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: signal + accuracy -->
+  <div class="row g-3 mb-3">
+
+    <!-- Today's signal -->
+    <div class="col-12 col-lg-7">
+      <div class="card h-100">
+        <div class="card-header d-flex align-items-center justify-content-between px-3 py-2">
+          <span>Today's Signal — fair_value_v2.py</span>
+          <div class="d-flex align-items-center gap-2">
+            <span id="signalAge" class="muted" style="font-size:.7rem"></span>
+            <button class="btn btn-sm btn-outline-secondary py-0 px-2" id="refreshSignalBtn" onclick="refreshSignal()">↺ Refresh</button>
+          </div>
+        </div>
+        <div class="p-3">
+          <pre class="signal-output" id="signalOutput">Loading…</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accuracy tracker -->
+    <div class="col-12 col-lg-5">
+      <div class="card h-100">
+        <div class="card-header px-3 py-2">Model Accuracy Tracker</div>
+        <div class="p-3">
+
+          <!-- Market accuracy bar -->
+          <div class="mb-3">
+            <div class="d-flex justify-content-between mb-1" style="font-size:.82rem">
+              <span>Market (implied distribution)</span>
+              <span class="green fw-bold" id="marketBarLabel">—</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar win-bar" id="marketBar" style="width:0%"></div>
+            </div>
+          </div>
+
+          <!-- NWS accuracy bar -->
+          <div class="mb-4">
+            <div class="d-flex justify-content-between mb-1" style="font-size:.82rem">
+              <span>NWS Forecast (bucket match)</span>
+              <span class="blue fw-bold" id="nwsBarLabel">—</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar nws-bar" id="nwsBar" style="width:0%"></div>
+            </div>
+          </div>
+
+          <!-- Per-day details -->
+          <div class="section-title">Per-Day History</div>
+          <div style="max-height:260px;overflow-y:auto">
+            <table class="table table-sm mb-0" id="accuracyTable">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Actual</th>
+                  <th>NWS</th>
+                  <th>Mkt Pick</th>
+                  <th>Mkt</th>
+                  <th>NWS</th>
+                </tr>
+              </thead>
+              <tbody id="accuracyBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 3: open positions -->
+  <div class="row g-3 mb-3">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header px-3 py-2">Open Positions &amp; Trade Log (Live Only)</div>
+        <div class="p-3">
+          <div class="table-responsive">
+            <table class="table table-sm mb-0">
+              <thead>
+                <tr>
+                  <th>Timestamp</th>
+                  <th>Ticker</th>
+                  <th>Side</th>
+                  <th>Count</th>
+                  <th>Price</th>
+                  <th>Cost</th>
+                  <th>P&amp;L</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody id="tradesBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 4: historical observations -->
+  <div class="row g-3">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header px-3 py-2">Historical Observations (recent 60)</div>
+        <div class="p-3">
+          <div class="obs-table-wrap table-responsive">
+            <table class="table table-sm mb-0">
+              <thead>
+                <tr>
+                  <th>Collected</th>
+                  <th>Target Date</th>
+                  <th>Ticker</th>
+                  <th>Floor</th>
+                  <th>Cap</th>
+                  <th>Mkt Mid</th>
+                  <th>NWS High</th>
+                  <th>Actual High</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody id="obsBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<script>
+const $ = id => document.getElementById(id);
+
+function fmt(v, prefix='$') {
+  if (v === null || v === undefined || v === '') return '—';
+  return prefix + parseFloat(v).toFixed(2);
+}
+
+function colorize(n) {
+  if (n === null || n === undefined || n === '') return 'muted';
+  return parseFloat(n) >= 0 ? 'green' : 'red';
+}
+
+function resultBadge(r) {
+  if (r === 'yes')  return '<span class="badge-yes">YES</span>';
+  if (r === 'no')   return '<span class="badge-no">NO</span>';
+  return '<span class="badge-pend">pending</span>';
+}
+
+function highlightSignal(text) {
+  // Escape HTML first
+  text = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  text = text.replace(/(⚡[^<\n]+)/g, '<span class="hi-buy">$1</span>');
+  text = text.replace(/(⚠️[^<\n]+)/g, '<span class="hi-warn">$1</span>');
+  return text;
+}
+
+function updateDashboard(d) {
+  // Balance
+  $('balance').textContent = d.balance !== null ? '$' + d.balance.toFixed(2) : '—';
+
+  // P&L cards
+  const p = d.pnl;
+  $('totalInvested').textContent = fmt(p.total_cost);
+  $('tradeCountLabel').textContent = `${p.settled_count + p.pending_count} live trades`;
+  const pnlEl = $('realizedPnl');
+  pnlEl.textContent = fmt(p.realized_pnl);
+  pnlEl.className = 'stat-value ' + colorize(p.realized_pnl);
+  $('pnlDetail').textContent = `${p.settled_count} settled · ${p.pending_count} pending`;
+
+  // Accuracy cards
+  const a = d.accuracy;
+  const mktPct = a.market_days ? Math.round(100 * a.market_wins / a.market_days) : 0;
+  $('marketWinRate').textContent = a.market_days ? `${a.market_wins}/${a.market_days}` : '—';
+  $('marketWinDetail').textContent = `${mktPct}% over ${a.market_days} day${a.market_days !== 1 ? 's' : ''}`;
+  $('marketBarLabel').textContent = a.market_days ? `${mktPct}%` : '—';
+  $('marketBar').style.width = mktPct + '%';
+
+  const nwsPct = a.nws_days ? Math.round(100 * a.nws_wins / a.nws_days) : 0;
+  $('nwsBarLabel').textContent = a.nws_days ? `${nwsPct}%` : '—';
+  $('nwsBar').style.width = nwsPct + '%';
+
+  // Accuracy table
+  const aBody = $('accuracyBody');
+  aBody.innerHTML = '';
+  for (const row of a.details) {
+    const tr = document.createElement('tr');
+    const mktIcon = row.market_won ? '<span class="green">✓</span>' : '<span class="red">✗</span>';
+    const nwsIcon = row.nws_won === true  ? '<span class="green">✓</span>' :
+                    row.nws_won === false ? '<span class="red">✗</span>' : '—';
+    tr.innerHTML = `
+      <td>${row.date}</td>
+      <td>${row.actual_high}°F</td>
+      <td>${row.nws_high}°F</td>
+      <td class="ticker-mono">${row.market_pick}</td>
+      <td>${mktIcon}</td>
+      <td>${nwsIcon}</td>`;
+    aBody.appendChild(tr);
+  }
+
+  // Signal output
+  $('signalOutput').innerHTML = highlightSignal(d.signal || '(no output)');
+  if (d.signal_age !== null) {
+    const mins = Math.floor(d.signal_age / 60);
+    $('signalAge').textContent = mins > 0 ? `cached ${mins}m ago` : 'fresh';
+  }
+
+  // Trades table
+  const tBody = $('tradesBody');
+  tBody.innerHTML = '';
+  for (const t of p.live_trades) {
+    const pnlVal = t.pnl !== '' ? fmt(t.pnl) : '—';
+    const pnlCls = t.pnl !== '' ? colorize(t.pnl) : 'muted';
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="muted" style="font-size:.75rem">${t.timestamp}</td>
+      <td class="ticker-mono">${t.ticker}</td>
+      <td><span class="${t.side === 'yes' ? 'green' : 'yellow'}">${t.side.toUpperCase()}</span></td>
+      <td>${t.count}</td>
+      <td>${t.price_cents}¢</td>
+      <td>$${parseFloat(t.cost).toFixed(2)}</td>
+      <td class="${pnlCls}">${pnlVal}</td>
+      <td>${resultBadge(t.result)}</td>`;
+    tBody.appendChild(tr);
+  }
+  if (!p.live_trades.length) {
+    tBody.innerHTML = '<tr><td colspan="8" class="muted text-center py-3">No live trades yet</td></tr>';
+  }
+
+  // Observations table
+  const oBody = $('obsBody');
+  oBody.innerHTML = '';
+  for (const r of d.observations) {
+    const tr = document.createElement('tr');
+    const probPct = r.price_mid !== '' ? (parseFloat(r.price_mid) * 100).toFixed(1) + '%' : '—';
+    tr.innerHTML = `
+      <td class="muted" style="font-size:.72rem">${r.collected_at}</td>
+      <td>${r.target_date}</td>
+      <td class="ticker-mono">${r.ticker}</td>
+      <td>${r.floor}</td>
+      <td>${r.cap}</td>
+      <td>${probPct}</td>
+      <td>${r.nws_forecast_high || '—'}</td>
+      <td>${r.actual_high || '—'}</td>
+      <td>${resultBadge(r.result)}</td>`;
+    oBody.appendChild(tr);
+  }
+
+  $('lastUpdated').textContent = 'Updated ' + d.updated_at;
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('/api/data');
+    const d   = await res.json();
+    updateDashboard(d);
+  } catch (e) {
+    $('lastUpdated').textContent = 'Refresh failed — ' + e.message;
+  }
+}
+
+async function refreshSignal() {
+  $('signalOutput').textContent = 'Regenerating signal… (may take ~20s)';
+  $('signalAge').textContent = '';
+  try {
+    const res = await fetch('/api/signal/refresh');
+    const d   = await res.json();
+    $('signalOutput').innerHTML = highlightSignal(d.signal || '(no output)');
+    $('signalAge').textContent = 'fresh';
+  } catch (e) {
+    $('signalOutput').textContent = 'Error: ' + e.message;
+  }
+}
+
+// Initial load + 60-second auto-refresh
+loadData();
+setInterval(loadData, 60_000);
+</script>
+</body>
+</html>
