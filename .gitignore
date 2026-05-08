@@ -6,3 +6,5 @@ __pycache__/
 *.ipynb_checkpoints
 data/raw/
 kalshi_trading.key
+kalshi_private.pem
+kalshi_public.pem
