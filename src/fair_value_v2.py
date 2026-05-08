@@ -180,17 +180,18 @@ print(f"  Mean: {market_mean:.1f}°F")
 print(f"  Std:  {market_std:.1f}°F")
 
 nws_high, nws_sigma = get_nws_forecast(target_date)
-print(f"\nNWS forecast:")
-print(f"  High: {nws_high}°F")
+print(f"\nNWS forecast (informational — not used in posterior):")
+print(f"  High:  {nws_high}°F")
 print(f"  Sigma: {nws_sigma}°F")
+if nws_high and market_mean:
+    print(f"  Divergence vs market: {nws_high - market_mean:+.1f}°F")
 
-post_mean, post_std = bayesian_update(market_mean, market_std, nws_high, nws_sigma)
-divergence = nws_high - market_mean
+# NWS disabled: 0/20 historical accuracy — market posterior used directly
+post_mean, post_std = market_mean, market_std
 
-print(f"\nPosterior (combined) distribution:")
+print(f"\nPosterior = Market distribution (NWS weight = 0):")
 print(f"  Mean: {post_mean:.1f}°F")
 print(f"  Std:  {post_std:.1f}°F")
-print(f"  NWS vs Market divergence: {divergence:+.1f}°F")
 
 edge_buffer = 0.03
 print(f"\n{'Bucket':<12} {'Mkt%':>7} {'Post%':>7} {'Edge':>7} {'Signal':>14}")
@@ -270,7 +271,5 @@ if trades:
 else:
     print("  No trades recommended — insufficient edge")
 
-print(f"\nNote: Model uses Gaussian conjugate update.")
-print(f"Weights: 85% market, 15% NWS (based on 5 observed days)")
-print(f"Market accuracy: 4/5 days. NWS accuracy: 0/5 days.")
-print(f"Increase NWS weight as historical accuracy data accumulates.")
+print(f"\nNote: Market-only model (NWS disabled — 0/20 historical accuracy).")
+print(f"Re-enable NWS weight in bayesian_update() when accuracy improves.")
