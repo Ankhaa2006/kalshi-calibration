@@ -137,4 +137,38 @@ def get_unsettled_live_trades() -> list[dict]:
         return [dict(r) for r in rows]
 
 
+def init_backtest_tables():
+    with get_conn() as conn:
+        conn.executescript("""
+            CREATE TABLE IF NOT EXISTS backtest_prices (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                event_ticker    TEXT    NOT NULL,
+                market_ticker   TEXT    NOT NULL,
+                target_date     TEXT    NOT NULL,
+                floor           REAL,
+                cap             REAL,
+                is_threshold    INTEGER DEFAULT 0,
+                threshold_type  TEXT,
+                result          TEXT,
+                price_13utc     REAL,
+                price_14utc     REAL,
+                price_15utc     REAL,
+                fetched_at      TEXT,
+                UNIQUE(market_ticker)
+            );
+
+            CREATE TABLE IF NOT EXISTS backtest_runs (
+                id        INTEGER PRIMARY KEY AUTOINCREMENT,
+                run_at    TEXT    NOT NULL,
+                n_events  INTEGER,
+                params    TEXT,
+                metrics   TEXT,
+                equity    TEXT
+            );
+
+            CREATE INDEX IF NOT EXISTS idx_bp_event ON backtest_prices(event_ticker);
+        """)
+
+
 init_db()
+init_backtest_tables()

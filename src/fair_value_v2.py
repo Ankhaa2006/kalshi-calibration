@@ -1,3 +1,4 @@
+import sys
 import requests
 import numpy as np
 from scipy import stats
@@ -5,6 +6,8 @@ from datetime import datetime, timezone
 from dotenv import load_dotenv
 from pathlib import Path
 import os
+
+sys.path.insert(0, str(Path(__file__).parent))
 
 load_dotenv(dotenv_path=Path('/Users/ankhbayarbatkhurel/kalshi-calibration/.env'))
 API_KEY = os.getenv("KALSHI_API_KEY")
@@ -114,20 +117,49 @@ def get_nws_forecast(target_date):
     except:
         return None, None
 
-def bayesian_update(market_mean, market_std, nws_mean, nws_std,
-                    market_weight=0.85, nws_weight=0.15):
+def conditional_nws_posterior(market_mean, market_std, nws_mean, nws_std):
     """
-    Weighted Bayesian update combining market prior with NWS signal.
-    Weights reflect empirical accuracy from our observations:
-    - Market correct 4/5 times
-    - NWS correct 0/5 times at 24h lead for NYC
-    Default: 85% market, 15% NWS
+    Blend NWS only when its forecast is outside the market's 1-sigma range.
+    Weight scales from 0% (at 1σ divergence) to 30% (at ≥3σ divergence).
+    When NWS agrees with the market, returns market distribution unchanged.
     """
-    market_var = (market_std ** 2) / market_weight
-    nws_var = (nws_std ** 2) / nws_weight
-    posterior_var = 1 / (1/market_var + 1/nws_var)
-    posterior_mean = posterior_var * (market_mean/market_var + nws_mean/nws_var)
-    return posterior_mean, posterior_var ** 0.5
+    if nws_mean is None or nws_std is None:
+        return market_mean, market_std
+    divergence = abs(nws_mean - market_mean) / market_std
+    if divergence < 1.0:
+        return market_mean, market_std
+    nws_weight = min(0.30, (divergence - 1.0) * 0.15)
+    mkt_weight = 1.0 - nws_weight
+    mkt_prec   = mkt_weight / market_std ** 2
+    nws_prec   = nws_weight / nws_std ** 2
+    post_prec  = mkt_prec + nws_prec
+    post_mean  = (mkt_prec * market_mean + nws_prec * nws_mean) / post_prec
+    post_std   = (1.0 / post_prec) ** 0.5
+    return post_mean, post_std
+
+
+def load_empirical_prior(min_obs=5):
+    """
+    Historical win rate per (floor, cap) bucket from the observations table.
+    Only returns rates for buckets with ≥min_obs settlements.
+    """
+    try:
+        import db
+        obs = db.get_all_observations()
+    except Exception:
+        return {}
+    counts, wins = {}, {}
+    for o in obs:
+        if o.get('result') not in ('yes', 'no'):
+            continue
+        f, c = o.get('floor'), o.get('cap')
+        if f is None or c is None:
+            continue
+        key = (float(f), float(c))
+        counts[key] = counts.get(key, 0) + 1
+        if o['result'] == 'yes':
+            wins[key] = wins.get(key, 0) + 1
+    return {k: wins.get(k, 0) / counts[k] for k in counts if counts[k] >= min_obs}
 
 def posterior_bucket_prob(floor, cap, mu, sigma):
     return stats.norm(mu, sigma).cdf(cap) - stats.norm(mu, sigma).cdf(floor)
@@ -180,79 +212,98 @@ print(f"  Mean: {market_mean:.1f}°F")
 print(f"  Std:  {market_std:.1f}°F")
 
 nws_high, nws_sigma = get_nws_forecast(target_date)
-print(f"\nNWS forecast (informational — not used in posterior):")
+print(f"\nNWS forecast:")
 print(f"  High:  {nws_high}°F")
 print(f"  Sigma: {nws_sigma}°F")
 if nws_high and market_mean:
-    print(f"  Divergence vs market: {nws_high - market_mean:+.1f}°F")
+    div_sigma = abs(nws_high - market_mean) / market_std if market_std else 0
+    print(f"  Divergence: {nws_high - market_mean:+.1f}°F  ({div_sigma:.1f}σ from market)")
 
-# NWS disabled: 0/20 historical accuracy — market posterior used directly
-post_mean, post_std = market_mean, market_std
-
-print(f"\nPosterior = Market distribution (NWS weight = 0):")
+post_mean, post_std = conditional_nws_posterior(market_mean, market_std, nws_high, nws_sigma)
+nws_active = (post_mean != market_mean)
+if nws_active:
+    nws_weight = min(0.30, (abs(nws_high - market_mean) / market_std - 1.0) * 0.15)
+    print(f"\nPosterior = Market + NWS blend (NWS weight: {nws_weight*100:.0f}%):")
+else:
+    print(f"\nPosterior = Market distribution (NWS within 1σ — not blended):")
 print(f"  Mean: {post_mean:.1f}°F")
 print(f"  Std:  {post_std:.1f}°F")
 
+emp_prior = load_empirical_prior()
+if emp_prior:
+    print(f"\nEmpirical prior: {len(emp_prior)} buckets with ≥5 historical observations")
+
 edge_buffer = 0.03
-print(f"\n{'Bucket':<12} {'Mkt%':>7} {'Post%':>7} {'Edge':>7} {'Signal':>14}")
-print("-" * 55)
+print(f"\n{'Bucket':<12} {'Mkt%':>6} {'Emp%':>6} {'Fair%':>6} {'Edge':>7} {'Signal':>14}")
+print("-" * 62)
 
 trades = []
 
 for b in sorted(range_buckets, key=lambda x: x["floor"]):
     floor, cap = b["floor"], b["cap"]
-    mkt_prob = b["raw_prob"]
-    post_prob = posterior_bucket_prob(floor, cap, post_mean, post_std)
-    edge_yes = post_prob - mkt_prob
-    be_yes = breakeven_yes(mkt_prob)
-    be_no = breakeven_no(mkt_prob)
-    label = f"{floor:.0f}-{cap:.0f}°"
+    mkt_prob  = b["raw_prob"]
+    pp_gauss  = posterior_bucket_prob(floor, cap, post_mean, post_std)
+    emp_rate  = emp_prior.get((float(floor), float(cap)))
+    # Composite fair value: empirical shifts gaussian by at most ±0.15
+    if emp_rate is not None:
+        adj       = max(-0.15, min(0.15, emp_rate - pp_gauss))
+        fair_prob = pp_gauss + 0.40 * adj
+    else:
+        fair_prob = pp_gauss
 
-    if post_prob > be_yes + edge_buffer:
+    edge_yes = fair_prob - mkt_prob
+    be_yes = breakeven_yes(mkt_prob)
+    be_no  = breakeven_no(mkt_prob)
+    label  = f"{floor:.0f}-{cap:.0f}°"
+    emp_str = f"{emp_rate*100:.0f}%" if emp_rate is not None else "  N/A"
+
+    if fair_prob > be_yes + edge_buffer and (emp_rate is None or emp_rate >= mkt_prob):
         signal = "⚡ BUY YES"
-        trades.append(("YES", label, mkt_prob, post_prob, post_prob - be_yes))
-    elif (1 - post_prob) > be_no + edge_buffer:
+        trades.append(("YES", label, mkt_prob, fair_prob, fair_prob - be_yes))
+    elif (1 - fair_prob) > be_no + edge_buffer and (emp_rate is None or emp_rate <= mkt_prob):
         signal = "⚡ BUY NO"
-        trades.append(("NO", label, mkt_prob, post_prob, (1-post_prob) - be_no))
+        trades.append(("NO", label, mkt_prob, fair_prob, (1-fair_prob) - be_no))
     else:
         signal = "— pass"
 
-    print(f"{label:<12} {mkt_prob*100:>6.1f}% "
-          f"{post_prob*100:>6.1f}% {edge_yes*100:>+6.1f}%  {signal}")
+    print(f"{label:<12} {mkt_prob*100:>5.1f}% {emp_str:>6} "
+          f"{fair_prob*100:>5.1f}% {edge_yes*100:>+6.1f}%  {signal}")
 
 if thresh_above:
-    floor = thresh_above["floor"]
+    floor    = thresh_above["floor"]
     mkt_prob = thresh_above["raw_prob"]
-    post_prob = posterior_above_prob(floor, post_mean, post_std)
-    edge = post_prob - mkt_prob
-    label = f">{floor:.0f}°"
-    be_yes = breakeven_yes(mkt_prob)
-    if post_prob > be_yes + edge_buffer:
+    pp_gauss = posterior_above_prob(floor, post_mean, post_std)
+    fair_prob = pp_gauss  # no empirical prior for threshold buckets
+    edge     = fair_prob - mkt_prob
+    label    = f">{floor:.0f}°"
+    be_yes   = breakeven_yes(mkt_prob)
+    if fair_prob > be_yes + edge_buffer:
         signal = "⚡ BUY YES"
-        trades.append(("YES", label, mkt_prob, post_prob, post_prob - be_yes))
-    elif (1-post_prob) > breakeven_no(mkt_prob) + edge_buffer:
+        trades.append(("YES", label, mkt_prob, fair_prob, fair_prob - be_yes))
+    elif (1 - fair_prob) > breakeven_no(mkt_prob) + edge_buffer:
         signal = "⚡ BUY NO"
     else:
         signal = "— pass"
-    print(f"{label:<12} {mkt_prob*100:>6.1f}% "
-          f"{post_prob*100:>6.1f}% {edge*100:>+6.1f}%  {signal}")
+    print(f"{label:<12} {mkt_prob*100:>5.1f}%    N/A "
+          f"{fair_prob*100:>5.1f}% {edge*100:>+6.1f}%  {signal}")
 
 if thresh_below:
-    cap = thresh_below["cap"]
+    cap      = thresh_below["cap"]
     mkt_prob = thresh_below["raw_prob"]
-    post_prob = posterior_below_prob(cap, post_mean, post_std)
-    edge = post_prob - mkt_prob
-    label = f"<{cap:.0f}°"
-    be_yes = breakeven_yes(mkt_prob)
-    if post_prob > be_yes + edge_buffer:
+    pp_gauss = posterior_below_prob(cap, post_mean, post_std)
+    fair_prob = pp_gauss
+    edge     = fair_prob - mkt_prob
+    label    = f"<{cap:.0f}°"
+    be_yes   = breakeven_yes(mkt_prob)
+    if fair_prob > be_yes + edge_buffer:
         signal = "⚡ BUY YES"
-        trades.append(("YES", label, mkt_prob, post_prob, post_prob - be_yes))
-    elif (1-post_prob) > breakeven_no(mkt_prob) + edge_buffer:
+        trades.append(("YES", label, mkt_prob, fair_prob, fair_prob - be_yes))
+    elif (1 - fair_prob) > breakeven_no(mkt_prob) + edge_buffer:
         signal = "⚡ BUY NO"
     else:
         signal = "— pass"
-    print(f"{label:<12} {mkt_prob*100:>6.1f}% "
-          f"{post_prob*100:>6.1f}% {edge*100:>+6.1f}%  {signal}")
+    print(f"{label:<12} {mkt_prob*100:>5.1f}%    N/A "
+          f"{fair_prob*100:>5.1f}% {edge*100:>+6.1f}%  {signal}")
 
 print(f"\n{'='*65}")
 print("TRADE RECOMMENDATIONS")
@@ -271,5 +322,5 @@ if trades:
 else:
     print("  No trades recommended — insufficient edge")
 
-print(f"\nNote: Market-only model (NWS disabled — 0/20 historical accuracy).")
-print(f"Re-enable NWS weight in bayesian_update() when accuracy improves.")
+print(f"\nNote: Composite model — market gaussian + empirical bucket prior.")
+print(f"NWS blended when forecast diverges >1σ from market (up to 30% weight).")
