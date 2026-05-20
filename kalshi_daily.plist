@@ -15,7 +15,7 @@
   <key>WorkingDirectory</key>
   <string>/Users/ankhbayarbatkhurel/kalshi-calibration</string>
 
-  <!-- Run at 9am, 12pm, and 2pm ET (14:00, 17:00, 19:00 UTC) -->
+  <!-- Run at 10am, 1pm, and 3pm EDT (14:00, 17:00, 19:00 UTC) -->
   <key>StartCalendarInterval</key>
   <array>
     <dict>
@@ -32,11 +32,15 @@
     </dict>
   </array>
 
+  <!-- Delay launch until DNS/network is available (macOS 11+) -->
+  <key>WaitForNetworkConnectivity</key>
+  <true/>
+
   <key>StandardOutPath</key>
-  <string>/Users/ankhbayarbatkhurel/kalshi-calibration/data/collector.log</string>
+  <string>/Users/ankhbayarbatkhurel/kalshi-calibration/data/trading.log</string>
 
   <key>StandardErrorPath</key>
-  <string>/Users/ankhbayarbatkhurel/kalshi-calibration/data/collector_error.log</string>
+  <string>/Users/ankhbayarbatkhurel/kalshi-calibration/data/trading_error.log</string>
 
   <key>EnvironmentVariables</key>
   <dict>

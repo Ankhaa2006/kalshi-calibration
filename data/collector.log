@@ -559,3 +559,708 @@ Saving...
   No new rows to write (already collected today)
 
 Done!
+
+=== Collection Run — 2026-05-08 23:25 UTC ===
+
+Backfilling past results...
+  Error backfilling KXHIGHNY-26MAY02-B58.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B58.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY02-B60.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B60.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY02-B62.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B62.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY02-B64.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B64.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B59.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B59.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B61.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B61.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B63.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B63.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B65.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B65.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B77.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B77.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B79.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B79.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B81.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B81.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B83.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B83.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B67.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B67.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B69.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B69.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B71.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B71.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B73.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B73.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B64.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B64.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B66.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B66.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B68.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B68.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B70.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B70.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B64.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B64.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B66.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B66.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B68.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B68.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B70.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B70.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+Fetching open buckets...
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-09 21:06 UTC (09:06 PM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93  pending  ⏳
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22  pending  ⏳
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22  pending  ⏳
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62  pending  ⏳
+
+  Total invested:  $3.99
+  Settled trades:  0
+  Pending trades:  4
+
+=== Collection Run — 2026-05-09 23:00 UTC ===
+
+Backfilling past results...
+  Backfilled KXHIGHNY-26MAY08-B64.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY08-B66.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY08-B68.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY08-B70.5: result=no actual=None
+
+Fetching open buckets...
+  Found 4 buckets for 2026-05-10
+
+Fetching NWS forecast...
+  NWS high: 70°F
+
+Saving observations...
+  67-68°  0.005  
+  65-66°  0.995  
+  63-64°  0.005  
+  61-62°  0.005  
+
+  4 buckets processed (duplicates skipped by DB)
+Done!
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-10 00:08 UTC (12:08 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-10 02:00 UTC (02:00 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-10
+  NWS forecast: 70°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-10 21:06 UTC (09:06 PM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+=== Collection Run — 2026-05-10 23:00 UTC ===
+
+Backfilling past results...
+  Backfilled KXHIGHNY-26MAY09-B61.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY09-B63.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY09-B65.5: result=yes actual=None
+  Backfilled KXHIGHNY-26MAY09-B67.5: result=no actual=None
+
+Fetching open buckets...
+  Found 4 buckets for 2026-05-11
+
+Fetching NWS forecast...
+  NWS high: 61°F
+
+Saving observations...
+  78-79°  0.005  
+  76-77°  0.005  
+  74-75°  0.005  
+  72-73°  0.995  
+
+  4 buckets processed (duplicates skipped by DB)
+Done!
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-11 00:00 UTC (12:00 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-11
+  NWS forecast: 61°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-11 02:00 UTC (02:00 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-11
+  NWS forecast: 61°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-11 21:00 UTC (09:00 PM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-12
+  NWS forecast: 63°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  Market implied: 60.4°F ± 1.3°F
+  NWS forecast:   63°F
+  Posterior:      60.4°F ± 1.4°F
+  Divergence:     +2.6°F
+
+⚡ Step 4: Signal detection...
+  No trades recommended today
+
+=== Collection Run — 2026-05-11 23:16 UTC ===
+
+Backfilling past results...
+  Error backfilling KXHIGHNY-26MAY02-B58.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B58.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY02-B60.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B60.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY02-B62.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B62.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY02-B64.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY02-B64.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B59.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B59.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B61.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B61.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B63.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B63.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY03-B65.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY03-B65.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B77.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B77.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B79.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B79.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B81.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B81.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY05-B83.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY05-B83.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B67.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B67.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B69.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B69.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B71.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B71.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY06-B73.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY06-B73.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B64.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B64.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B66.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B66.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B68.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B68.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY07-B70.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY07-B70.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B64.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B64.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B66.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B66.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B68.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B68.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY08-B70.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY08-B70.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY09-B61.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY09-B61.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY09-B63.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY09-B63.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY09-B65.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY09-B65.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY09-B67.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY09-B67.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY10-B72.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY10-B72.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY10-B74.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY10-B74.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY10-B76.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY10-B76.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Error backfilling KXHIGHNY-26MAY10-B78.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26MAY10-B78.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+Fetching open buckets...
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-12 00:00 UTC (12:00 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-12
+  NWS forecast: 63°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-12 02:02 UTC (02:02 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-12 21:04 UTC (09:04 PM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+=== Collection Run — 2026-05-12 23:00 UTC ===
+
+Backfilling past results...
+  Backfilled KXHIGHNY-26MAY10-B72.5: result=yes actual=None
+  Backfilled KXHIGHNY-26MAY10-B74.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY10-B76.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY10-B78.5: result=no actual=None
+
+Fetching open buckets...
+  Found 4 buckets for 2026-05-13
+
+Fetching NWS forecast...
+  NWS high: 64°F
+
+Saving observations...
+  72-73°  0.005  
+  70-71°  0.005  
+  68-69°  0.005  
+  66-67°  0.995  
+
+  4 buckets processed (duplicates skipped by DB)
+Done!
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-13 00:00 UTC (12:00 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-13 02:30 UTC (02:30 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-13 21:00 UTC (09:00 PM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-14
+  NWS forecast: 62°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+
+=== Collection Run — 2026-05-13 23:00 UTC ===
+
+Backfilling past results...
+  Backfilled KXHIGHNY-26MAY12-B66.5: result=yes actual=None
+  Backfilled KXHIGHNY-26MAY12-B68.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY12-B70.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY12-B72.5: result=no actual=None
+
+Fetching open buckets...
+  Found 4 buckets for 2026-05-14
+
+Fetching NWS forecast...
+  NWS high: 62°F
+
+Saving observations...
+  72-73°  0.995  
+  70-71°  0.005  
+  68-69°  0.005  
+  66-67°  0.005  
+
+  4 buckets processed (duplicates skipped by DB)
+Done!
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-14 00:15 UTC (12:15 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-14 02:03 UTC (02:03 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-14 21:00 UTC (09:00 PM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-15
+  NWS forecast: 64°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  Market implied: 65.7°F ± 0.8°F
+  NWS forecast:   64°F
+  Posterior:      65.7°F ± 0.9°F
+  Divergence:     -1.7°F
+
+⚡ Step 4: Signal detection...
+
+  Direction Bucket        Mkt%     FV%    Edge
+  ---------------------------------------------
+  NO     65-66°       88.0%   41.7%  +45.5%
+
+🚀 Step 5: Trade execution...
+  Best signal: NO on 65-66°
+  Edge: 45.5%  |  Max risk: $1.50
+  Edge 45.5% below 15% threshold — paper trading
+
+  [DRY RUN] Order:
+    Ticker: KXHIGHNY-26MAY14-B65.5
+    Side:   NO BUY
+    Count:  10 contracts @ 88¢
+    Cost:   $8.80
+    Status: SIMULATED
+
+============================================================
+Done! Check back tomorrow morning.
+============================================================
+
+=== Collection Run — 2026-05-14 23:00 UTC ===
+
+Backfilling past results...
+  Backfilled KXHIGHNY-26MAY13-B66.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY13-B68.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY13-B70.5: result=no actual=None
+  Backfilled KXHIGHNY-26MAY13-B72.5: result=yes actual=None
+
+Fetching open buckets...
+  Found 4 buckets for 2026-05-15
+
+Fetching NWS forecast...
+  NWS high: 64°F
+
+Saving observations...
+  69-70°  0.005  
+  67-68°  0.015  
+  65-66°  0.985  
+  63-64°  0.005  ← NWS
+
+  4 buckets processed (duplicates skipped by DB)
+Done!
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-15 00:00 UTC (12:00 AM UTC)
+============================================================
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+
+  Total invested:  $3.99
+  Settled trades:  4
+  Pending trades:  0
+  Win rate:        1/4 (25%)
+  Realized P&L:    $+0.78
+  ROI:             +19.6%
+
+💰 Current balance: $15.03
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-15
+  NWS forecast: 64°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals

@@ -1,0 +1,301 @@
+{
+  "run_at": "2026-05-12T22:41:51.370311+00:00",
+  "params": {
+    "edge_threshold": 0.15,
+    "kelly_fraction": 0.5,
+    "max_position_pct": 0.15,
+    "fee_rate": 0.07,
+    "starting_balance": 10.0
+  },
+  "data": {
+    "n_days": 19,
+    "date_range": [
+      "2026-04-07",
+      "2026-05-10"
+    ]
+  },
+  "metrics": {
+    "n_trades": 5,
+    "win_rate": 0.4,
+    "total_pnl": -2.3881,
+    "roi_pct": -23.88,
+    "sharpe": -6.612,
+    "max_drawdown": 0.2816,
+    "final_balance": 7.6119
+  },
+  "roi_by_month": {
+    "2026-04": {
+      "pnl": -2.3881,
+      "n_trades": 5,
+      "win_rate": 0.4,
+      "roi_pct": -23.88
+    }
+  },
+  "calibration_curve": [
+    {
+      "bucket": "0-10\u00a2",
+      "price_lo": 0.0,
+      "price_hi": 0.1,
+      "count": 50,
+      "wins": 0,
+      "actual_pct": 0.0,
+      "implied_pct": 5.0,
+      "edge_pct": -5.0
+    },
+    {
+      "bucket": "10-20\u00a2",
+      "price_lo": 0.1,
+      "price_hi": 0.2,
+      "count": 2,
+      "wins": 0,
+      "actual_pct": 0.0,
+      "implied_pct": 15.0,
+      "edge_pct": -15.0
+    },
+    {
+      "bucket": "20-30\u00a2",
+      "price_lo": 0.2,
+      "price_hi": 0.3,
+      "count": 3,
+      "wins": 0,
+      "actual_pct": 0.0,
+      "implied_pct": 25.0,
+      "edge_pct": -25.0
+    },
+    {
+      "bucket": "30-40\u00a2",
+      "price_lo": 0.3,
+      "price_hi": 0.4,
+      "count": 3,
+      "wins": 1,
+      "actual_pct": 33.3,
+      "implied_pct": 35.0,
+      "edge_pct": -1.7
+    },
+    {
+      "bucket": "40-50\u00a2",
+      "price_lo": 0.4,
+      "price_hi": 0.5,
+      "count": 1,
+      "wins": 1,
+      "actual_pct": 100.0,
+      "implied_pct": 45.0,
+      "edge_pct": 55.0
+    },
+    {
+      "bucket": "50-60\u00a2",
+      "price_lo": 0.5,
+      "price_hi": 0.6,
+      "count": 1,
+      "wins": 1,
+      "actual_pct": 100.0,
+      "implied_pct": 55.0,
+      "edge_pct": 45.0
+    },
+    {
+      "bucket": "60-70\u00a2",
+      "price_lo": 0.6,
+      "price_hi": 0.7,
+      "count": 1,
+      "wins": 1,
+      "actual_pct": 100.0,
+      "implied_pct": 65.0,
+      "edge_pct": 35.0
+    },
+    {
+      "bucket": "90-100\u00a2",
+      "price_lo": 0.9,
+      "price_hi": 1.0,
+      "count": 15,
+      "wins": 15,
+      "actual_pct": 100.0,
+      "implied_pct": 95.0,
+      "edge_pct": 5.0
+    }
+  ],
+  "walk_forward": {
+    "split_date": "2026-04-30",
+    "train_events": 11,
+    "test_events": 8,
+    "train": {
+      "n_trades": 4,
+      "win_rate": 0.5,
+      "total_pnl": -1.3981,
+      "roi_pct": -13.98,
+      "sharpe": -7.164,
+      "max_drawdown": 0.1881,
+      "final_balance": 8.6019
+    },
+    "test": {
+      "n_trades": 1,
+      "win_rate": 0.0,
+      "total_pnl": -1.32,
+      "roi_pct": -13.2,
+      "sharpe": -6.0,
+      "max_drawdown": 0.132,
+      "final_balance": 8.68
+    },
+    "train_equity": [
+      {
+        "date": "2026-04-07",
+        "balance": 9.1102
+      },
+      {
+        "date": "2026-04-09",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-14",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-16",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-17",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-18",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-22",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-24",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-27",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-28",
+        "balance": 8.6019
+      },
+      {
+        "date": "2026-04-29",
+        "balance": 8.6019
+      }
+    ],
+    "test_equity": [
+      {
+        "date": "2026-04-30",
+        "balance": 8.68
+      },
+      {
+        "date": "2026-05-02",
+        "balance": 8.68
+      },
+      {
+        "date": "2026-05-03",
+        "balance": 8.68
+      },
+      {
+        "date": "2026-05-04",
+        "balance": 8.68
+      },
+      {
+        "date": "2026-05-06",
+        "balance": 8.68
+      },
+      {
+        "date": "2026-05-07",
+        "balance": 8.68
+      },
+      {
+        "date": "2026-05-08",
+        "balance": 8.68
+      },
+      {
+        "date": "2026-05-10",
+        "balance": 8.68
+      }
+    ]
+  },
+  "trades": [
+    {
+      "target_date": "2026-04-07",
+      "ticker": "KXHIGHNY-26APR06-B54.5",
+      "floor": 54.0,
+      "cap": 55.0,
+      "direction": "NO",
+      "mkt_price": 0.32,
+      "fair_prob": 0.1476,
+      "edge": 0.1568,
+      "contracts": 2,
+      "cost": 1.36,
+      "won": true,
+      "pnl": 0.5952,
+      "result": "no",
+      "balance_after": 10.5952
+    },
+    {
+      "target_date": "2026-04-07",
+      "ticker": "KXHIGHNY-26APR06-B56.5",
+      "floor": 56.0,
+      "cap": 57.0,
+      "direction": "NO",
+      "mkt_price": 0.505,
+      "fair_prob": 0.2725,
+      "edge": 0.2144,
+      "contracts": 3,
+      "cost": 1.485,
+      "won": false,
+      "pnl": -1.485,
+      "result": "yes",
+      "balance_after": 9.1102
+    },
+    {
+      "target_date": "2026-04-09",
+      "ticker": "KXHIGHNY-26APR08-B48.5",
+      "floor": 48.0,
+      "cap": 49.0,
+      "direction": "NO",
+      "mkt_price": 0.345,
+      "fair_prob": 0.1708,
+      "edge": 0.158,
+      "contracts": 2,
+      "cost": 1.31,
+      "won": true,
+      "pnl": 0.6417,
+      "result": "no",
+      "balance_after": 9.7519
+    },
+    {
+      "target_date": "2026-04-09",
+      "ticker": "KXHIGHNY-26APR08-B50.5",
+      "floor": 50.0,
+      "cap": 51.0,
+      "direction": "NO",
+      "mkt_price": 0.425,
+      "fair_prob": 0.2341,
+      "edge": 0.1732,
+      "contracts": 2,
+      "cost": 1.15,
+      "won": false,
+      "pnl": -1.15,
+      "result": "yes",
+      "balance_after": 8.6019
+    },
+    {
+      "target_date": "2026-04-30",
+      "ticker": "KXHIGHNY-26APR29-B62.5",
+      "floor": 62.0,
+      "cap": 63.0,
+      "direction": "NO",
+      "mkt_price": 0.67,
+      "fair_prob": 0.3183,
+      "edge": 0.3354,
+      "contracts": 3,
+      "cost": 0.99,
+      "won": false,
+      "pnl": -0.99,
+      "result": "yes",
+      "balance_after": 7.6119
+    }
+  ]
+}
