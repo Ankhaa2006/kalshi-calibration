@@ -76,7 +76,7 @@ def get_signal_output():
         return _signal_cache['output']
     try:
         result = subprocess.run(
-            [sys.executable, str(BASE_DIR / 'src/fair_value_v2.py')],
+            [sys.executable, str(BASE_DIR / 'src/model.py')],
             capture_output=True, text=True, timeout=45, cwd=str(BASE_DIR))
         out = result.stdout or ''
         if result.stderr:
