@@ -1,0 +1,4746 @@
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-21 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96  pending  ⏳
+
+  Total invested:  $13.07
+  Settled trades:  7
+  Pending trades:  1
+  Win rate:        1/7 (14%)
+  Realized P&L:    $-5.34
+  ROI:             -40.9%
+
+💰 Current balance: $9.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-21
+  NWS forecast: 69°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-21 02:08 UTC (02:08 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96  pending  ⏳
+
+  Total invested:  $13.07
+  Settled trades:  7
+  Pending trades:  1
+  Win rate:        1/7 (14%)
+  Realized P&L:    $-5.34
+  ROI:             -40.9%
+
+💰 Current balance: $9.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-21
+  NWS forecast: 69°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-21 21:06 UTC (09:06 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-22
+  NWS forecast: 61°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-22 00:02 UTC (12:02 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-22
+  NWS forecast: 61°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-22 02:13 UTC (02:13 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  DNS not ready yet (attempt 2/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-22
+  NWS forecast: 61°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-22 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-23
+  NWS forecast: 57°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-23 00:50 UTC (12:50 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-23
+  NWS forecast: 57°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-23 02:04 UTC (02:04 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  DNS not ready yet (attempt 2/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-23
+  NWS forecast: 58°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-23 21:01 UTC (09:01 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-24
+  NWS forecast: 58°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-24 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  DNS not ready yet (attempt 2/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-24
+  NWS forecast: 58°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-24 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-24
+  NWS forecast: 58°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-24 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-25
+  NWS forecast: 70°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-25 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-25
+  NWS forecast: 70°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-25 02:02 UTC (02:02 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-25
+  NWS forecast: 70°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-25 21:06 UTC (09:06 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  18 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-26
+  NWS forecast: 73°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  Market implied: 73.1°F ± 1.3°F
+  NWS forecast:   73°F
+  Posterior:      73.1°F ± 1.4°F
+  Divergence:     -0.1°F
+
+⚡ Step 4: Signal detection...
+
+  Direction Bucket        Mkt%     FV%    Edge
+  ---------------------------------------------
+  NO     72-73°       70.0%   25.8%  +42.7%
+  NO     74-75°       22.5%   17.9%   +3.4%
+  YES    <72°          0.5%   19.9%  +19.4%
+
+🚀 Step 5: Trade execution...
+  Best signal: NO on 72-73°
+  Edge: 42.7%  |  Max risk: $1.36
+  Edge 42.7% below 15% threshold — paper trading
+
+  [DRY RUN] Order:
+    Ticker: KXHIGHNY-26MAY25-B72.5
+    Side:   NO BUY
+    Count:  4 contracts @ 30¢
+    Cost:   $1.20
+    Status: SIMULATED
+
+============================================================
+Done! Check back tomorrow morning.
+============================================================
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-26 00:10 UTC (12:10 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  19 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-26
+  NWS forecast: 73°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-26 02:11 UTC (02:11 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  19 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-26
+  NWS forecast: 73°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-26 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  20 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-27
+  NWS forecast: 79°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-27 00:22 UTC (12:22 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  20 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-27
+  NWS forecast: 79°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-27 02:13 UTC (02:13 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  DNS not ready yet (attempt 2/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  20 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+
+  Total invested:  $13.07
+  Settled trades:  8
+  Pending trades:  0
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -42.4%
+
+💰 Current balance: $13.62
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-27
+  NWS forecast: 79°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-27 21:07 UTC (09:07 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  DNS not ready yet (attempt 2/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  21 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04  pending  ⏳
+
+  Total invested:  $14.11
+  Settled trades:  8
+  Pending trades:  1
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -39.3%
+
+💰 Current balance: $12.58
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-28
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  Market implied: 80.1°F ± 1.2°F
+  NWS forecast:   76°F
+  Posterior:      80.1°F ± 1.3°F
+  Divergence:     -4.1°F
+
+⚡ Step 4: Signal detection...
+
+  Direction Bucket        Mkt%     FV%    Edge
+  ---------------------------------------------
+  YES    77-78°        0.5%    4.1%   +3.5%
+  NO     79-80°       69.5%   27.8%  +40.2%
+  NO     81-82°       29.0%   17.1%  +10.4%
+
+🚀 Step 5: Trade execution...
+  Best signal: NO on 79-80°
+  Edge: 40.2%  |  Max risk: $1.26
+
+  Order:
+    Ticker: KXHIGHNY-26MAY27-B79.5
+    Side:   NO BUY
+    Count:  4 contracts @ 30¢
+    Cost:   $1.20
+    Status: FILLED ✅  order_id=20ac18c9-5663-4fb2-8b77-513b798179bc
+
+============================================================
+Done! Check back tomorrow morning.
+============================================================
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-28 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04  pending  ⏳
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20  pending  ⏳
+
+  Total invested:  $15.31
+  Settled trades:  8
+  Pending trades:  2
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -36.2%
+
+💰 Current balance: $11.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-28
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-28 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04  pending  ⏳
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20  pending  ⏳
+
+  Total invested:  $15.31
+  Settled trades:  8
+  Pending trades:  2
+  Win rate:        1/8 (12%)
+  Realized P&L:    $-5.55
+  ROI:             -36.2%
+
+💰 Current balance: $11.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-28
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-28 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-29
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-29 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-29
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-29 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-29
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-29 21:08 UTC (09:08 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-30
+  NWS forecast: 70°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-30 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-30
+  NWS forecast: 70°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-30 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-30
+  NWS forecast: 68°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-30 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-31
+  NWS forecast: 73°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-31 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-31
+  NWS forecast: 73°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-31 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-05-31
+  NWS forecast: 73°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-05-31 21:02 UTC (09:02 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-01
+  NWS forecast: 69°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-01 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-01
+  NWS forecast: 69°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-01 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  22 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-01
+  NWS forecast: 69°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-01 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-02
+  NWS forecast: 71°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-02 00:11 UTC (12:11 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-02
+  NWS forecast: 71°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-02 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-02
+  NWS forecast: 71°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-02 22:06 UTC (10:06 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-03
+  NWS forecast: 75°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-03 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-03
+  NWS forecast: 75°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-03 02:05 UTC (02:05 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-03
+  NWS forecast: 75°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-03 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $0.00
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-04
+  NWS forecast: 80°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-04 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-04
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-04 02:40 UTC (02:40 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-04
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-04 21:02 UTC (09:02 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-05
+  NWS forecast: 85°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-05 00:04 UTC (12:04 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-05
+  NWS forecast: 85°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-05 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-05
+  NWS forecast: 85°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-05 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-06
+  NWS forecast: 89°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-06 00:17 UTC (12:17 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-06
+  NWS forecast: 89°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-06 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-06
+  NWS forecast: 89°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-06 23:04 UTC (11:04 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-07
+  NWS forecast: 84°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-07 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-07
+  NWS forecast: 84°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-07 02:16 UTC (02:16 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-07
+  NWS forecast: 84°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-07 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-08
+  NWS forecast: 72°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-08 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-08
+  NWS forecast: 72°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-08 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-08
+  NWS forecast: 72°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-08 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-09
+  NWS forecast: 75°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-09 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-09
+  NWS forecast: 75°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-09 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  23 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-09
+  NWS forecast: 75°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-09 21:25 UTC (09:25 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-10
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-10 00:13 UTC (12:13 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-10
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-10 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-10
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-10 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-11
+  NWS forecast: 88°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-11 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-11
+  NWS forecast: 88°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-11 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-11
+  NWS forecast: 88°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-11 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-12
+  NWS forecast: 87°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-12 00:15 UTC (12:15 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  DNS not ready yet (attempt 2/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-12
+  NWS forecast: 87°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-12 02:09 UTC (02:09 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  DNS not ready yet (attempt 1/12) — retrying in 5s
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-12
+  NWS forecast: 87°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-12 21:04 UTC (09:04 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-13
+  NWS forecast: 87°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-13 00:13 UTC (12:13 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-13
+  NWS forecast: 87°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-13 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-13
+  NWS forecast: 87°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-13 21:11 UTC (09:11 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-14
+  NWS forecast: 81°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-14 00:10 UTC (12:10 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-14
+  NWS forecast: 81°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-14 02:16 UTC (02:16 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  24 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+
+  Total invested:  $15.31
+  Settled trades:  10
+  Pending trades:  0
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -37.3%
+
+💰 Current balance: $17.38
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-14
+  NWS forecast: 81°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-14 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90  pending  ⏳
+
+  Total invested:  $16.21
+  Settled trades:  10
+  Pending trades:  1
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -35.2%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-15
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-15 00:07 UTC (12:07 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90  pending  ⏳
+
+  Total invested:  $16.21
+  Settled trades:  10
+  Pending trades:  1
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -35.2%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-15
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-15 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90  pending  ⏳
+
+  Total invested:  $16.21
+  Settled trades:  10
+  Pending trades:  1
+  Win rate:        1/10 (10%)
+  Realized P&L:    $-5.70
+  ROI:             -35.2%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-15
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-15 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-16
+  NWS forecast: 76°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-16 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-16
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-16 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-16
+  NWS forecast: 76°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-16 21:23 UTC (09:23 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-17
+  NWS forecast: 77°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-17 00:05 UTC (12:05 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-17
+  NWS forecast: 77°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-17 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-17
+  NWS forecast: 77°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-17 21:59 UTC (09:59 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-18
+  NWS forecast: 85°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-18 00:01 UTC (12:01 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-18
+  NWS forecast: 85°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-18 02:03 UTC (02:03 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-18
+  NWS forecast: 85°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-18 21:15 UTC (09:15 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-19
+  NWS forecast: 80°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-19 00:05 UTC (12:05 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-19
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-19 02:45 UTC (02:45 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-19
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-19 21:21 UTC (09:21 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-20
+  NWS forecast: 80°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-20 00:09 UTC (12:09 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-20
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-20 02:01 UTC (02:01 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-20
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-20 21:01 UTC (09:01 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  25 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-21
+  NWS forecast: 80°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  Market implied: 81.0°F ± 1.5°F
+  NWS forecast:   80°F
+  Posterior:      81.0°F ± 1.6°F
+  Divergence:     -1.0°F
+
+⚡ Step 4: Signal detection...
+
+  Direction Bucket        Mkt%     FV%    Edge
+  ---------------------------------------------
+  NO     82-83°       34.5%   15.6%  +17.3%
+  YES    <82°         67.5%   73.7%   +4.6%
+
+🚀 Step 5: Trade execution...
+  Best signal: NO on 82-83°
+  Edge: 17.3%  |  Max risk: $1.65
+  Edge 17.3% below 15% threshold — paper trading
+
+  [DRY RUN] Order:
+    Ticker: KXHIGHNY-26JUN20-B82.5
+    Side:   NO BUY
+    Count:  2 contracts @ 65¢
+    Cost:   $1.30
+    Status: SIMULATED
+
+============================================================
+Done! Check back tomorrow morning.
+============================================================
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-21 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-21
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-21 02:08 UTC (02:08 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-21
+  NWS forecast: 80°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-21 21:00 UTC (09:00 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-22
+  NWS forecast: 73°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-22 00:01 UTC (12:01 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-22
+  NWS forecast: 73°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-22 02:00 UTC (02:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-22
+  NWS forecast: 73°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-22 21:07 UTC (09:07 PM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $16.48
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-23
+  NWS forecast: 76°F
+  Saved 4 new observations
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals

@@ -1,0 +1,2682 @@
+[
+  {
+    "event": "KXHIGHNY-26APR01",
+    "date": "2026-04-01",
+    "ticker": "KXHIGHNY-26APR01-B78.5",
+    "floor": 78.0,
+    "cap": 79.0,
+    "price_6am": 0.34,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR01",
+    "date": "2026-04-01",
+    "ticker": "KXHIGHNY-26APR01-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.375,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR01",
+    "date": "2026-04-01",
+    "ticker": "KXHIGHNY-26APR01-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.135,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR01",
+    "date": "2026-04-01",
+    "ticker": "KXHIGHNY-26APR01-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR02",
+    "date": "2026-04-02",
+    "ticker": "KXHIGHNY-26APR02-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR02",
+    "date": "2026-04-02",
+    "ticker": "KXHIGHNY-26APR02-B58.5",
+    "floor": 58.0,
+    "cap": 59.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR02",
+    "date": "2026-04-02",
+    "ticker": "KXHIGHNY-26APR02-B56.5",
+    "floor": 56.0,
+    "cap": 57.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR02",
+    "date": "2026-04-02",
+    "ticker": "KXHIGHNY-26APR02-B54.5",
+    "floor": 54.0,
+    "cap": 55.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR03",
+    "date": "2026-04-03",
+    "ticker": "KXHIGHNY-26APR03-B71.5",
+    "floor": 71.0,
+    "cap": 72.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR03",
+    "date": "2026-04-03",
+    "ticker": "KXHIGHNY-26APR03-B69.5",
+    "floor": 69.0,
+    "cap": 70.0,
+    "price_6am": 0.255,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR03",
+    "date": "2026-04-03",
+    "ticker": "KXHIGHNY-26APR03-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.335,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR03",
+    "date": "2026-04-03",
+    "ticker": "KXHIGHNY-26APR03-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.205,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR04",
+    "date": "2026-04-04",
+    "ticker": "KXHIGHNY-26APR04-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR04",
+    "date": "2026-04-04",
+    "ticker": "KXHIGHNY-26APR04-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.155,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR04",
+    "date": "2026-04-04",
+    "ticker": "KXHIGHNY-26APR04-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.335,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR04",
+    "date": "2026-04-04",
+    "ticker": "KXHIGHNY-26APR04-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.28,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR05",
+    "date": "2026-04-05",
+    "ticker": "KXHIGHNY-26APR05-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.075,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR05",
+    "date": "2026-04-05",
+    "ticker": "KXHIGHNY-26APR05-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.125,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR05",
+    "date": "2026-04-05",
+    "ticker": "KXHIGHNY-26APR05-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.155,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR05",
+    "date": "2026-04-05",
+    "ticker": "KXHIGHNY-26APR05-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.265,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR06",
+    "date": "2026-04-06",
+    "ticker": "KXHIGHNY-26APR06-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR06",
+    "date": "2026-04-06",
+    "ticker": "KXHIGHNY-26APR06-B58.5",
+    "floor": 58.0,
+    "cap": 59.0,
+    "price_6am": 0.135,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR06",
+    "date": "2026-04-06",
+    "ticker": "KXHIGHNY-26APR06-B56.5",
+    "floor": 56.0,
+    "cap": 57.0,
+    "price_6am": 0.345,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR06",
+    "date": "2026-04-06",
+    "ticker": "KXHIGHNY-26APR06-B54.5",
+    "floor": 54.0,
+    "cap": 55.0,
+    "price_6am": 0.345,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR07",
+    "date": "2026-04-07",
+    "ticker": "KXHIGHNY-26APR07-B54.5",
+    "floor": 54.0,
+    "cap": 55.0,
+    "price_6am": 0.295,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR07",
+    "date": "2026-04-07",
+    "ticker": "KXHIGHNY-26APR07-B52.5",
+    "floor": 52.0,
+    "cap": 53.0,
+    "price_6am": 0.415,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR07",
+    "date": "2026-04-07",
+    "ticker": "KXHIGHNY-26APR07-B50.5",
+    "floor": 50.0,
+    "cap": 51.0,
+    "price_6am": 0.185,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR07",
+    "date": "2026-04-07",
+    "ticker": "KXHIGHNY-26APR07-B48.5",
+    "floor": 48.0,
+    "cap": 49.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR08",
+    "date": "2026-04-08",
+    "ticker": "KXHIGHNY-26APR08-B52.5",
+    "floor": 52.0,
+    "cap": 53.0,
+    "price_6am": 0.205,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR08",
+    "date": "2026-04-08",
+    "ticker": "KXHIGHNY-26APR08-B50.5",
+    "floor": 50.0,
+    "cap": 51.0,
+    "price_6am": 0.365,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR08",
+    "date": "2026-04-08",
+    "ticker": "KXHIGHNY-26APR08-B48.5",
+    "floor": 48.0,
+    "cap": 49.0,
+    "price_6am": 0.255,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR08",
+    "date": "2026-04-08",
+    "ticker": "KXHIGHNY-26APR08-B46.5",
+    "floor": 46.0,
+    "cap": 47.0,
+    "price_6am": 0.07,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR09",
+    "date": "2026-04-09",
+    "ticker": "KXHIGHNY-26APR09-B59.5",
+    "floor": 59.0,
+    "cap": 60.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR09",
+    "date": "2026-04-09",
+    "ticker": "KXHIGHNY-26APR09-B57.5",
+    "floor": 57.0,
+    "cap": 58.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR09",
+    "date": "2026-04-09",
+    "ticker": "KXHIGHNY-26APR09-B55.5",
+    "floor": 55.0,
+    "cap": 56.0,
+    "price_6am": 0.2,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR09",
+    "date": "2026-04-09",
+    "ticker": "KXHIGHNY-26APR09-B53.5",
+    "floor": 53.0,
+    "cap": 54.0,
+    "price_6am": 0.305,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR10",
+    "date": "2026-04-10",
+    "ticker": "KXHIGHNY-26APR10-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.105,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR10",
+    "date": "2026-04-10",
+    "ticker": "KXHIGHNY-26APR10-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.31,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR10",
+    "date": "2026-04-10",
+    "ticker": "KXHIGHNY-26APR10-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.375,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR10",
+    "date": "2026-04-10",
+    "ticker": "KXHIGHNY-26APR10-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.15,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR11",
+    "date": "2026-04-11",
+    "ticker": "KXHIGHNY-26APR11-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR11",
+    "date": "2026-04-11",
+    "ticker": "KXHIGHNY-26APR11-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.175,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR11",
+    "date": "2026-04-11",
+    "ticker": "KXHIGHNY-26APR11-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.455,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR11",
+    "date": "2026-04-11",
+    "ticker": "KXHIGHNY-26APR11-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.305,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR12",
+    "date": "2026-04-12",
+    "ticker": "KXHIGHNY-26APR12-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR12",
+    "date": "2026-04-12",
+    "ticker": "KXHIGHNY-26APR12-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.075,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR12",
+    "date": "2026-04-12",
+    "ticker": "KXHIGHNY-26APR12-B58.5",
+    "floor": 58.0,
+    "cap": 59.0,
+    "price_6am": 0.28,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR12",
+    "date": "2026-04-12",
+    "ticker": "KXHIGHNY-26APR12-B56.5",
+    "floor": 56.0,
+    "cap": 57.0,
+    "price_6am": 0.45,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR13",
+    "date": "2026-04-13",
+    "ticker": "KXHIGHNY-26APR13-B80.5",
+    "floor": 80.0,
+    "cap": 81.0,
+    "price_6am": 0.345,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR13",
+    "date": "2026-04-13",
+    "ticker": "KXHIGHNY-26APR13-B78.5",
+    "floor": 78.0,
+    "cap": 79.0,
+    "price_6am": 0.375,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR13",
+    "date": "2026-04-13",
+    "ticker": "KXHIGHNY-26APR13-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.12,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR13",
+    "date": "2026-04-13",
+    "ticker": "KXHIGHNY-26APR13-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR14",
+    "date": "2026-04-14",
+    "ticker": "KXHIGHNY-26APR14-B85.5",
+    "floor": 85.0,
+    "cap": 86.0,
+    "price_6am": 0.385,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR14",
+    "date": "2026-04-14",
+    "ticker": "KXHIGHNY-26APR14-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.255,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR14",
+    "date": "2026-04-14",
+    "ticker": "KXHIGHNY-26APR14-B81.5",
+    "floor": 81.0,
+    "cap": 82.0,
+    "price_6am": 0.13,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR14",
+    "date": "2026-04-14",
+    "ticker": "KXHIGHNY-26APR14-B79.5",
+    "floor": 79.0,
+    "cap": 80.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR15",
+    "date": "2026-04-15",
+    "ticker": "KXHIGHNY-26APR15-B89.5",
+    "floor": 89.0,
+    "cap": 90.0,
+    "price_6am": 0.395,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR15",
+    "date": "2026-04-15",
+    "ticker": "KXHIGHNY-26APR15-B87.5",
+    "floor": 87.0,
+    "cap": 88.0,
+    "price_6am": 0.285,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR15",
+    "date": "2026-04-15",
+    "ticker": "KXHIGHNY-26APR15-B85.5",
+    "floor": 85.0,
+    "cap": 86.0,
+    "price_6am": 0.085,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR15",
+    "date": "2026-04-15",
+    "ticker": "KXHIGHNY-26APR15-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR16",
+    "date": "2026-04-16",
+    "ticker": "KXHIGHNY-26APR16-B90.5",
+    "floor": 90.0,
+    "cap": 91.0,
+    "price_6am": 0.355,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR16",
+    "date": "2026-04-16",
+    "ticker": "KXHIGHNY-26APR16-B88.5",
+    "floor": 88.0,
+    "cap": 89.0,
+    "price_6am": 0.415,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR16",
+    "date": "2026-04-16",
+    "ticker": "KXHIGHNY-26APR16-B86.5",
+    "floor": 86.0,
+    "cap": 87.0,
+    "price_6am": 0.175,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR16",
+    "date": "2026-04-16",
+    "ticker": "KXHIGHNY-26APR16-B84.5",
+    "floor": 84.0,
+    "cap": 85.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR17",
+    "date": "2026-04-17",
+    "ticker": "KXHIGHNY-26APR17-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR17",
+    "date": "2026-04-17",
+    "ticker": "KXHIGHNY-26APR17-B81.5",
+    "floor": 81.0,
+    "cap": 82.0,
+    "price_6am": 0.03,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR17",
+    "date": "2026-04-17",
+    "ticker": "KXHIGHNY-26APR17-B79.5",
+    "floor": 79.0,
+    "cap": 80.0,
+    "price_6am": 0.265,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR17",
+    "date": "2026-04-17",
+    "ticker": "KXHIGHNY-26APR17-B77.5",
+    "floor": 77.0,
+    "cap": 78.0,
+    "price_6am": 0.495,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR18",
+    "date": "2026-04-18",
+    "ticker": "KXHIGHNY-26APR18-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.4,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR18",
+    "date": "2026-04-18",
+    "ticker": "KXHIGHNY-26APR18-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.25,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR18",
+    "date": "2026-04-18",
+    "ticker": "KXHIGHNY-26APR18-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.1,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR18",
+    "date": "2026-04-18",
+    "ticker": "KXHIGHNY-26APR18-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.04,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR19",
+    "date": "2026-04-19",
+    "ticker": "KXHIGHNY-26APR19-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR19",
+    "date": "2026-04-19",
+    "ticker": "KXHIGHNY-26APR19-B58.5",
+    "floor": 58.0,
+    "cap": 59.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR19",
+    "date": "2026-04-19",
+    "ticker": "KXHIGHNY-26APR19-B56.5",
+    "floor": 56.0,
+    "cap": 57.0,
+    "price_6am": 0.065,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR19",
+    "date": "2026-04-19",
+    "ticker": "KXHIGHNY-26APR19-B54.5",
+    "floor": 54.0,
+    "cap": 55.0,
+    "price_6am": 0.335,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR20",
+    "date": "2026-04-20",
+    "ticker": "KXHIGHNY-26APR20-B57.5",
+    "floor": 57.0,
+    "cap": 58.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR20",
+    "date": "2026-04-20",
+    "ticker": "KXHIGHNY-26APR20-B55.5",
+    "floor": 55.0,
+    "cap": 56.0,
+    "price_6am": 0.045,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR20",
+    "date": "2026-04-20",
+    "ticker": "KXHIGHNY-26APR20-B53.5",
+    "floor": 53.0,
+    "cap": 54.0,
+    "price_6am": 0.135,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR20",
+    "date": "2026-04-20",
+    "ticker": "KXHIGHNY-26APR20-B51.5",
+    "floor": 51.0,
+    "cap": 52.0,
+    "price_6am": 0.525,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR21",
+    "date": "2026-04-21",
+    "ticker": "KXHIGHNY-26APR21-B57.5",
+    "floor": 57.0,
+    "cap": 58.0,
+    "price_6am": 0.02,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR21",
+    "date": "2026-04-21",
+    "ticker": "KXHIGHNY-26APR21-B55.5",
+    "floor": 55.0,
+    "cap": 56.0,
+    "price_6am": 0.155,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR21",
+    "date": "2026-04-21",
+    "ticker": "KXHIGHNY-26APR21-B53.5",
+    "floor": 53.0,
+    "cap": 54.0,
+    "price_6am": 0.455,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR21",
+    "date": "2026-04-21",
+    "ticker": "KXHIGHNY-26APR21-B51.5",
+    "floor": 51.0,
+    "cap": 52.0,
+    "price_6am": 0.345,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR22",
+    "date": "2026-04-22",
+    "ticker": "KXHIGHNY-26APR22-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR22",
+    "date": "2026-04-22",
+    "ticker": "KXHIGHNY-26APR22-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR22",
+    "date": "2026-04-22",
+    "ticker": "KXHIGHNY-26APR22-B59.5",
+    "floor": 59.0,
+    "cap": 60.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR22",
+    "date": "2026-04-22",
+    "ticker": "KXHIGHNY-26APR22-B57.5",
+    "floor": 57.0,
+    "cap": 58.0,
+    "price_6am": 0.115,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR23",
+    "date": "2026-04-23",
+    "ticker": "KXHIGHNY-26APR23-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.49,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR23",
+    "date": "2026-04-23",
+    "ticker": "KXHIGHNY-26APR23-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.2,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR23",
+    "date": "2026-04-23",
+    "ticker": "KXHIGHNY-26APR23-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.095,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR23",
+    "date": "2026-04-23",
+    "ticker": "KXHIGHNY-26APR23-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR24",
+    "date": "2026-04-24",
+    "ticker": "KXHIGHNY-26APR24-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.475,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR24",
+    "date": "2026-04-24",
+    "ticker": "KXHIGHNY-26APR24-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.145,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR24",
+    "date": "2026-04-24",
+    "ticker": "KXHIGHNY-26APR24-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR24",
+    "date": "2026-04-24",
+    "ticker": "KXHIGHNY-26APR24-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR25",
+    "date": "2026-04-25",
+    "ticker": "KXHIGHNY-26APR25-B57.5",
+    "floor": 57.0,
+    "cap": 58.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR25",
+    "date": "2026-04-25",
+    "ticker": "KXHIGHNY-26APR25-B55.5",
+    "floor": 55.0,
+    "cap": 56.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR25",
+    "date": "2026-04-25",
+    "ticker": "KXHIGHNY-26APR25-B53.5",
+    "floor": 53.0,
+    "cap": 54.0,
+    "price_6am": 0.045,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR25",
+    "date": "2026-04-25",
+    "ticker": "KXHIGHNY-26APR25-B51.5",
+    "floor": 51.0,
+    "cap": 52.0,
+    "price_6am": 0.28,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR26",
+    "date": "2026-04-26",
+    "ticker": "KXHIGHNY-26APR26-B57.5",
+    "floor": 57.0,
+    "cap": 58.0,
+    "price_6am": 0.345,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR26",
+    "date": "2026-04-26",
+    "ticker": "KXHIGHNY-26APR26-B55.5",
+    "floor": 55.0,
+    "cap": 56.0,
+    "price_6am": 0.235,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR26",
+    "date": "2026-04-26",
+    "ticker": "KXHIGHNY-26APR26-B53.5",
+    "floor": 53.0,
+    "cap": 54.0,
+    "price_6am": 0.155,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR26",
+    "date": "2026-04-26",
+    "ticker": "KXHIGHNY-26APR26-B51.5",
+    "floor": 51.0,
+    "cap": 52.0,
+    "price_6am": 0.065,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR27",
+    "date": "2026-04-27",
+    "ticker": "KXHIGHNY-26APR27-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.385,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR27",
+    "date": "2026-04-27",
+    "ticker": "KXHIGHNY-26APR27-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.44,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR27",
+    "date": "2026-04-27",
+    "ticker": "KXHIGHNY-26APR27-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.135,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR27",
+    "date": "2026-04-27",
+    "ticker": "KXHIGHNY-26APR27-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR28",
+    "date": "2026-04-28",
+    "ticker": "KXHIGHNY-26APR28-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.545,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR28",
+    "date": "2026-04-28",
+    "ticker": "KXHIGHNY-26APR28-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.265,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR28",
+    "date": "2026-04-28",
+    "ticker": "KXHIGHNY-26APR28-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR28",
+    "date": "2026-04-28",
+    "ticker": "KXHIGHNY-26APR28-B59.5",
+    "floor": 59.0,
+    "cap": 60.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR29",
+    "date": "2026-04-29",
+    "ticker": "KXHIGHNY-26APR29-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.305,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26APR29",
+    "date": "2026-04-29",
+    "ticker": "KXHIGHNY-26APR29-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.445,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR29",
+    "date": "2026-04-29",
+    "ticker": "KXHIGHNY-26APR29-B58.5",
+    "floor": 58.0,
+    "cap": 59.0,
+    "price_6am": 0.165,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR29",
+    "date": "2026-04-29",
+    "ticker": "KXHIGHNY-26APR29-B56.5",
+    "floor": 56.0,
+    "cap": 57.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR30",
+    "date": "2026-04-30",
+    "ticker": "KXHIGHNY-26APR30-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR30",
+    "date": "2026-04-30",
+    "ticker": "KXHIGHNY-26APR30-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR30",
+    "date": "2026-04-30",
+    "ticker": "KXHIGHNY-26APR30-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.27,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26APR30",
+    "date": "2026-04-30",
+    "ticker": "KXHIGHNY-26APR30-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.45,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR24",
+    "date": "2026-03-24",
+    "ticker": "KXHIGHNY-26MAR24-B52.5",
+    "floor": 52.0,
+    "cap": 53.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR24",
+    "date": "2026-03-24",
+    "ticker": "KXHIGHNY-26MAR24-B50.5",
+    "floor": 50.0,
+    "cap": 51.0,
+    "price_6am": 0.155,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR24",
+    "date": "2026-03-24",
+    "ticker": "KXHIGHNY-26MAR24-B48.5",
+    "floor": 48.0,
+    "cap": 49.0,
+    "price_6am": 0.415,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAR24",
+    "date": "2026-03-24",
+    "ticker": "KXHIGHNY-26MAR24-B46.5",
+    "floor": 46.0,
+    "cap": 47.0,
+    "price_6am": 0.335,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR25",
+    "date": "2026-03-25",
+    "ticker": "KXHIGHNY-26MAR25-B57.5",
+    "floor": 57.0,
+    "cap": 58.0,
+    "price_6am": 0.085,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR25",
+    "date": "2026-03-25",
+    "ticker": "KXHIGHNY-26MAR25-B55.5",
+    "floor": 55.0,
+    "cap": 56.0,
+    "price_6am": 0.27,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR25",
+    "date": "2026-03-25",
+    "ticker": "KXHIGHNY-26MAR25-B53.5",
+    "floor": 53.0,
+    "cap": 54.0,
+    "price_6am": 0.455,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAR25",
+    "date": "2026-03-25",
+    "ticker": "KXHIGHNY-26MAR25-B51.5",
+    "floor": 51.0,
+    "cap": 52.0,
+    "price_6am": 0.16,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR26",
+    "date": "2026-03-26",
+    "ticker": "KXHIGHNY-26MAR26-B71.5",
+    "floor": 71.0,
+    "cap": 72.0,
+    "price_6am": 0.235,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR26",
+    "date": "2026-03-26",
+    "ticker": "KXHIGHNY-26MAR26-B69.5",
+    "floor": 69.0,
+    "cap": 70.0,
+    "price_6am": 0.075,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR26",
+    "date": "2026-03-26",
+    "ticker": "KXHIGHNY-26MAR26-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR26",
+    "date": "2026-03-26",
+    "ticker": "KXHIGHNY-26MAR26-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR27",
+    "date": "2026-03-27",
+    "ticker": "KXHIGHNY-26MAR27-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR27",
+    "date": "2026-03-27",
+    "ticker": "KXHIGHNY-26MAR27-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.585,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR27",
+    "date": "2026-03-27",
+    "ticker": "KXHIGHNY-26MAR27-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.385,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAR27",
+    "date": "2026-03-27",
+    "ticker": "KXHIGHNY-26MAR27-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR28",
+    "date": "2026-03-28",
+    "ticker": "KXHIGHNY-26MAR28-B46.5",
+    "floor": 46.0,
+    "cap": 47.0,
+    "price_6am": 0.145,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR28",
+    "date": "2026-03-28",
+    "ticker": "KXHIGHNY-26MAR28-B44.5",
+    "floor": 44.0,
+    "cap": 45.0,
+    "price_6am": 0.43,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAR28",
+    "date": "2026-03-28",
+    "ticker": "KXHIGHNY-26MAR28-B42.5",
+    "floor": 42.0,
+    "cap": 43.0,
+    "price_6am": 0.375,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR28",
+    "date": "2026-03-28",
+    "ticker": "KXHIGHNY-26MAR28-B40.5",
+    "floor": 40.0,
+    "cap": 41.0,
+    "price_6am": 0.075,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR29",
+    "date": "2026-03-29",
+    "ticker": "KXHIGHNY-26MAR29-B56.5",
+    "floor": 56.0,
+    "cap": 57.0,
+    "price_6am": 0.33,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR29",
+    "date": "2026-03-29",
+    "ticker": "KXHIGHNY-26MAR29-B54.5",
+    "floor": 54.0,
+    "cap": 55.0,
+    "price_6am": 0.45,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAR29",
+    "date": "2026-03-29",
+    "ticker": "KXHIGHNY-26MAR29-B52.5",
+    "floor": 52.0,
+    "cap": 53.0,
+    "price_6am": 0.165,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR29",
+    "date": "2026-03-29",
+    "ticker": "KXHIGHNY-26MAR29-B50.5",
+    "floor": 50.0,
+    "cap": 51.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR30",
+    "date": "2026-03-30",
+    "ticker": "KXHIGHNY-26MAR30-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.215,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR30",
+    "date": "2026-03-30",
+    "ticker": "KXHIGHNY-26MAR30-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.13,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR30",
+    "date": "2026-03-30",
+    "ticker": "KXHIGHNY-26MAR30-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR30",
+    "date": "2026-03-30",
+    "ticker": "KXHIGHNY-26MAR30-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR31",
+    "date": "2026-03-31",
+    "ticker": "KXHIGHNY-26MAR31-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.16,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR31",
+    "date": "2026-03-31",
+    "ticker": "KXHIGHNY-26MAR31-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR31",
+    "date": "2026-03-31",
+    "ticker": "KXHIGHNY-26MAR31-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAR31",
+    "date": "2026-03-31",
+    "ticker": "KXHIGHNY-26MAR31-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY01",
+    "date": "2026-05-01",
+    "ticker": "KXHIGHNY-26MAY01-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.06,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY01",
+    "date": "2026-05-01",
+    "ticker": "KXHIGHNY-26MAY01-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.4,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY01",
+    "date": "2026-05-01",
+    "ticker": "KXHIGHNY-26MAY01-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.435,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY01",
+    "date": "2026-05-01",
+    "ticker": "KXHIGHNY-26MAY01-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.085,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY02",
+    "date": "2026-05-02",
+    "ticker": "KXHIGHNY-26MAY02-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.065,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY02",
+    "date": "2026-05-02",
+    "ticker": "KXHIGHNY-26MAY02-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.305,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY02",
+    "date": "2026-05-02",
+    "ticker": "KXHIGHNY-26MAY02-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.475,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY02",
+    "date": "2026-05-02",
+    "ticker": "KXHIGHNY-26MAY02-B58.5",
+    "floor": 58.0,
+    "cap": 59.0,
+    "price_6am": 0.115,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY03",
+    "date": "2026-05-03",
+    "ticker": "KXHIGHNY-26MAY03-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY03",
+    "date": "2026-05-03",
+    "ticker": "KXHIGHNY-26MAY03-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY03",
+    "date": "2026-05-03",
+    "ticker": "KXHIGHNY-26MAY03-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.17,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY03",
+    "date": "2026-05-03",
+    "ticker": "KXHIGHNY-26MAY03-B59.5",
+    "floor": 59.0,
+    "cap": 60.0,
+    "price_6am": 0.595,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY04",
+    "date": "2026-05-04",
+    "ticker": "KXHIGHNY-26MAY04-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY04",
+    "date": "2026-05-04",
+    "ticker": "KXHIGHNY-26MAY04-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.135,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY04",
+    "date": "2026-05-04",
+    "ticker": "KXHIGHNY-26MAY04-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.605,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY04",
+    "date": "2026-05-04",
+    "ticker": "KXHIGHNY-26MAY04-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.2,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY05",
+    "date": "2026-05-05",
+    "ticker": "KXHIGHNY-26MAY05-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.235,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY05",
+    "date": "2026-05-05",
+    "ticker": "KXHIGHNY-26MAY05-B81.5",
+    "floor": 81.0,
+    "cap": 82.0,
+    "price_6am": 0.51,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY05",
+    "date": "2026-05-05",
+    "ticker": "KXHIGHNY-26MAY05-B79.5",
+    "floor": 79.0,
+    "cap": 80.0,
+    "price_6am": 0.145,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY05",
+    "date": "2026-05-05",
+    "ticker": "KXHIGHNY-26MAY05-B77.5",
+    "floor": 77.0,
+    "cap": 78.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY06",
+    "date": "2026-05-06",
+    "ticker": "KXHIGHNY-26MAY06-B73.5",
+    "floor": 73.0,
+    "cap": 74.0,
+    "price_6am": 0.085,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY06",
+    "date": "2026-05-06",
+    "ticker": "KXHIGHNY-26MAY06-B71.5",
+    "floor": 71.0,
+    "cap": 72.0,
+    "price_6am": 0.255,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY06",
+    "date": "2026-05-06",
+    "ticker": "KXHIGHNY-26MAY06-B69.5",
+    "floor": 69.0,
+    "cap": 70.0,
+    "price_6am": 0.625,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY06",
+    "date": "2026-05-06",
+    "ticker": "KXHIGHNY-26MAY06-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.085,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY07",
+    "date": "2026-05-07",
+    "ticker": "KXHIGHNY-26MAY07-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY07",
+    "date": "2026-05-07",
+    "ticker": "KXHIGHNY-26MAY07-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY07",
+    "date": "2026-05-07",
+    "ticker": "KXHIGHNY-26MAY07-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.255,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY07",
+    "date": "2026-05-07",
+    "ticker": "KXHIGHNY-26MAY07-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.56,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY08",
+    "date": "2026-05-08",
+    "ticker": "KXHIGHNY-26MAY08-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY08",
+    "date": "2026-05-08",
+    "ticker": "KXHIGHNY-26MAY08-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY08",
+    "date": "2026-05-08",
+    "ticker": "KXHIGHNY-26MAY08-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.085,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY08",
+    "date": "2026-05-08",
+    "ticker": "KXHIGHNY-26MAY08-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.545,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY09",
+    "date": "2026-05-09",
+    "ticker": "KXHIGHNY-26MAY09-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.115,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY09",
+    "date": "2026-05-09",
+    "ticker": "KXHIGHNY-26MAY09-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.31,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY09",
+    "date": "2026-05-09",
+    "ticker": "KXHIGHNY-26MAY09-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.4,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY09",
+    "date": "2026-05-09",
+    "ticker": "KXHIGHNY-26MAY09-B61.5",
+    "floor": 61.0,
+    "cap": 62.0,
+    "price_6am": 0.075,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY10",
+    "date": "2026-05-10",
+    "ticker": "KXHIGHNY-26MAY10-B78.5",
+    "floor": 78.0,
+    "cap": 79.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY10",
+    "date": "2026-05-10",
+    "ticker": "KXHIGHNY-26MAY10-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.235,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY10",
+    "date": "2026-05-10",
+    "ticker": "KXHIGHNY-26MAY10-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.485,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY10",
+    "date": "2026-05-10",
+    "ticker": "KXHIGHNY-26MAY10-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.205,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY11",
+    "date": "2026-05-11",
+    "ticker": "KXHIGHNY-26MAY11-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY11",
+    "date": "2026-05-11",
+    "ticker": "KXHIGHNY-26MAY11-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.065,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY11",
+    "date": "2026-05-11",
+    "ticker": "KXHIGHNY-26MAY11-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.35,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY11",
+    "date": "2026-05-11",
+    "ticker": "KXHIGHNY-26MAY11-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.53,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY12",
+    "date": "2026-05-12",
+    "ticker": "KXHIGHNY-26MAY12-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY12",
+    "date": "2026-05-12",
+    "ticker": "KXHIGHNY-26MAY12-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY12",
+    "date": "2026-05-12",
+    "ticker": "KXHIGHNY-26MAY12-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.115,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY12",
+    "date": "2026-05-12",
+    "ticker": "KXHIGHNY-26MAY12-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.51,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY13",
+    "date": "2026-05-13",
+    "ticker": "KXHIGHNY-26MAY13-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.125,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY13",
+    "date": "2026-05-13",
+    "ticker": "KXHIGHNY-26MAY13-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.535,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY13",
+    "date": "2026-05-13",
+    "ticker": "KXHIGHNY-26MAY13-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.205,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY13",
+    "date": "2026-05-13",
+    "ticker": "KXHIGHNY-26MAY13-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY14",
+    "date": "2026-05-14",
+    "ticker": "KXHIGHNY-26MAY14-B69.5",
+    "floor": 69.0,
+    "cap": 70.0,
+    "price_6am": 0.045,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY14",
+    "date": "2026-05-14",
+    "ticker": "KXHIGHNY-26MAY14-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.14,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY14",
+    "date": "2026-05-14",
+    "ticker": "KXHIGHNY-26MAY14-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.26,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY14",
+    "date": "2026-05-14",
+    "ticker": "KXHIGHNY-26MAY14-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.405,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY15",
+    "date": "2026-05-15",
+    "ticker": "KXHIGHNY-26MAY15-B71.5",
+    "floor": 71.0,
+    "cap": 72.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY15",
+    "date": "2026-05-15",
+    "ticker": "KXHIGHNY-26MAY15-B69.5",
+    "floor": 69.0,
+    "cap": 70.0,
+    "price_6am": 0.155,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY15",
+    "date": "2026-05-15",
+    "ticker": "KXHIGHNY-26MAY15-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.635,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY15",
+    "date": "2026-05-15",
+    "ticker": "KXHIGHNY-26MAY15-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.215,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY16",
+    "date": "2026-05-16",
+    "ticker": "KXHIGHNY-26MAY16-B82.5",
+    "floor": 82.0,
+    "cap": 83.0,
+    "price_6am": 0.06,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY16",
+    "date": "2026-05-16",
+    "ticker": "KXHIGHNY-26MAY16-B80.5",
+    "floor": 80.0,
+    "cap": 81.0,
+    "price_6am": 0.415,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY16",
+    "date": "2026-05-16",
+    "ticker": "KXHIGHNY-26MAY16-B78.5",
+    "floor": 78.0,
+    "cap": 79.0,
+    "price_6am": 0.46,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY16",
+    "date": "2026-05-16",
+    "ticker": "KXHIGHNY-26MAY16-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.065,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY17",
+    "date": "2026-05-17",
+    "ticker": "KXHIGHNY-26MAY17-B89.5",
+    "floor": 89.0,
+    "cap": 90.0,
+    "price_6am": 0.46,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY17",
+    "date": "2026-05-17",
+    "ticker": "KXHIGHNY-26MAY17-B87.5",
+    "floor": 87.0,
+    "cap": 88.0,
+    "price_6am": 0.405,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY17",
+    "date": "2026-05-17",
+    "ticker": "KXHIGHNY-26MAY17-B85.5",
+    "floor": 85.0,
+    "cap": 86.0,
+    "price_6am": 0.11,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY17",
+    "date": "2026-05-17",
+    "ticker": "KXHIGHNY-26MAY17-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY18",
+    "date": "2026-05-18",
+    "ticker": "KXHIGHNY-26MAY18-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.095,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY18",
+    "date": "2026-05-18",
+    "ticker": "KXHIGHNY-26MAY18-B81.5",
+    "floor": 81.0,
+    "cap": 82.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY18",
+    "date": "2026-05-18",
+    "ticker": "KXHIGHNY-26MAY18-B79.5",
+    "floor": 79.0,
+    "cap": 80.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY18",
+    "date": "2026-05-18",
+    "ticker": "KXHIGHNY-26MAY18-B77.5",
+    "floor": 77.0,
+    "cap": 78.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY19",
+    "date": "2026-05-19",
+    "ticker": "KXHIGHNY-26MAY19-B95.5",
+    "floor": 95.0,
+    "cap": 96.0,
+    "price_6am": 0.495,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY19",
+    "date": "2026-05-19",
+    "ticker": "KXHIGHNY-26MAY19-B93.5",
+    "floor": 93.0,
+    "cap": 94.0,
+    "price_6am": 0.275,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY19",
+    "date": "2026-05-19",
+    "ticker": "KXHIGHNY-26MAY19-B91.5",
+    "floor": 91.0,
+    "cap": 92.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY19",
+    "date": "2026-05-19",
+    "ticker": "KXHIGHNY-26MAY19-B89.5",
+    "floor": 89.0,
+    "cap": 90.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY20",
+    "date": "2026-05-20",
+    "ticker": "KXHIGHNY-26MAY20-B95.5",
+    "floor": 95.0,
+    "cap": 96.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY20",
+    "date": "2026-05-20",
+    "ticker": "KXHIGHNY-26MAY20-B93.5",
+    "floor": 93.0,
+    "cap": 94.0,
+    "price_6am": 0.325,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY20",
+    "date": "2026-05-20",
+    "ticker": "KXHIGHNY-26MAY20-B91.5",
+    "floor": 91.0,
+    "cap": 92.0,
+    "price_6am": 0.525,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY20",
+    "date": "2026-05-20",
+    "ticker": "KXHIGHNY-26MAY20-B89.5",
+    "floor": 89.0,
+    "cap": 90.0,
+    "price_6am": 0.125,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY21",
+    "date": "2026-05-21",
+    "ticker": "KXHIGHNY-26MAY21-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY21",
+    "date": "2026-05-21",
+    "ticker": "KXHIGHNY-26MAY21-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY21",
+    "date": "2026-05-21",
+    "ticker": "KXHIGHNY-26MAY21-B70.5",
+    "floor": 70.0,
+    "cap": 71.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY21",
+    "date": "2026-05-21",
+    "ticker": "KXHIGHNY-26MAY21-B68.5",
+    "floor": 68.0,
+    "cap": 69.0,
+    "price_6am": 0.065,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY22",
+    "date": "2026-05-22",
+    "ticker": "KXHIGHNY-26MAY22-B69.5",
+    "floor": 69.0,
+    "cap": 70.0,
+    "price_6am": 0.06,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY22",
+    "date": "2026-05-22",
+    "ticker": "KXHIGHNY-26MAY22-B67.5",
+    "floor": 67.0,
+    "cap": 68.0,
+    "price_6am": 0.485,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY22",
+    "date": "2026-05-22",
+    "ticker": "KXHIGHNY-26MAY22-B65.5",
+    "floor": 65.0,
+    "cap": 66.0,
+    "price_6am": 0.435,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY22",
+    "date": "2026-05-22",
+    "ticker": "KXHIGHNY-26MAY22-B63.5",
+    "floor": 63.0,
+    "cap": 64.0,
+    "price_6am": 0.03,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY23",
+    "date": "2026-05-23",
+    "ticker": "KXHIGHNY-26MAY23-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.04,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY23",
+    "date": "2026-05-23",
+    "ticker": "KXHIGHNY-26MAY23-B58.5",
+    "floor": 58.0,
+    "cap": 59.0,
+    "price_6am": 0.405,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY23",
+    "date": "2026-05-23",
+    "ticker": "KXHIGHNY-26MAY23-B56.5",
+    "floor": 56.0,
+    "cap": 57.0,
+    "price_6am": 0.505,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY23",
+    "date": "2026-05-23",
+    "ticker": "KXHIGHNY-26MAY23-B54.5",
+    "floor": 54.0,
+    "cap": 55.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY24",
+    "date": "2026-05-24",
+    "ticker": "KXHIGHNY-26MAY24-B66.5",
+    "floor": 66.0,
+    "cap": 67.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY24",
+    "date": "2026-05-24",
+    "ticker": "KXHIGHNY-26MAY24-B64.5",
+    "floor": 64.0,
+    "cap": 65.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY24",
+    "date": "2026-05-24",
+    "ticker": "KXHIGHNY-26MAY24-B62.5",
+    "floor": 62.0,
+    "cap": 63.0,
+    "price_6am": 0.025,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY24",
+    "date": "2026-05-24",
+    "ticker": "KXHIGHNY-26MAY24-B60.5",
+    "floor": 60.0,
+    "cap": 61.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY25",
+    "date": "2026-05-25",
+    "ticker": "KXHIGHNY-26MAY25-B78.5",
+    "floor": 78.0,
+    "cap": 79.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY25",
+    "date": "2026-05-25",
+    "ticker": "KXHIGHNY-26MAY25-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.03,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY25",
+    "date": "2026-05-25",
+    "ticker": "KXHIGHNY-26MAY25-B74.5",
+    "floor": 74.0,
+    "cap": 75.0,
+    "price_6am": 0.105,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY25",
+    "date": "2026-05-25",
+    "ticker": "KXHIGHNY-26MAY25-B72.5",
+    "floor": 72.0,
+    "cap": 73.0,
+    "price_6am": 0.435,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY26",
+    "date": "2026-05-26",
+    "ticker": "KXHIGHNY-26MAY26-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.035,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY26",
+    "date": "2026-05-26",
+    "ticker": "KXHIGHNY-26MAY26-B81.5",
+    "floor": 81.0,
+    "cap": 82.0,
+    "price_6am": 0.205,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY26",
+    "date": "2026-05-26",
+    "ticker": "KXHIGHNY-26MAY26-B79.5",
+    "floor": 79.0,
+    "cap": 80.0,
+    "price_6am": 0.555,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY26",
+    "date": "2026-05-26",
+    "ticker": "KXHIGHNY-26MAY26-B77.5",
+    "floor": 77.0,
+    "cap": 78.0,
+    "price_6am": 0.25,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY27",
+    "date": "2026-05-27",
+    "ticker": "KXHIGHNY-26MAY27-B83.5",
+    "floor": 83.0,
+    "cap": 84.0,
+    "price_6am": 0.46,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY27",
+    "date": "2026-05-27",
+    "ticker": "KXHIGHNY-26MAY27-B81.5",
+    "floor": 81.0,
+    "cap": 82.0,
+    "price_6am": 0.125,
+    "result": "yes",
+    "won": true
+  },
+  {
+    "event": "KXHIGHNY-26MAY27",
+    "date": "2026-05-27",
+    "ticker": "KXHIGHNY-26MAY27-B79.5",
+    "floor": 79.0,
+    "cap": 80.0,
+    "price_6am": 0.01,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY27",
+    "date": "2026-05-27",
+    "ticker": "KXHIGHNY-26MAY27-B77.5",
+    "floor": 77.0,
+    "cap": 78.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY28",
+    "date": "2026-05-28",
+    "ticker": "KXHIGHNY-26MAY28-B82.5",
+    "floor": 82.0,
+    "cap": 83.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY28",
+    "date": "2026-05-28",
+    "ticker": "KXHIGHNY-26MAY28-B80.5",
+    "floor": 80.0,
+    "cap": 81.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY28",
+    "date": "2026-05-28",
+    "ticker": "KXHIGHNY-26MAY28-B78.5",
+    "floor": 78.0,
+    "cap": 79.0,
+    "price_6am": 0.085,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY28",
+    "date": "2026-05-28",
+    "ticker": "KXHIGHNY-26MAY28-B76.5",
+    "floor": 76.0,
+    "cap": 77.0,
+    "price_6am": 0.51,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY29",
+    "date": "2026-05-29",
+    "ticker": "KXHIGHNY-26MAY29-B84.5",
+    "floor": 84.0,
+    "cap": 85.0,
+    "price_6am": 0.005,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY29",
+    "date": "2026-05-29",
+    "ticker": "KXHIGHNY-26MAY29-B82.5",
+    "floor": 82.0,
+    "cap": 83.0,
+    "price_6am": 0.015,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY29",
+    "date": "2026-05-29",
+    "ticker": "KXHIGHNY-26MAY29-B80.5",
+    "floor": 80.0,
+    "cap": 81.0,
+    "price_6am": 0.065,
+    "result": "no",
+    "won": false
+  },
+  {
+    "event": "KXHIGHNY-26MAY29",
+    "date": "2026-05-29",
+    "ticker": "KXHIGHNY-26MAY29-B78.5",
+    "floor": 78.0,
+    "cap": 79.0,
+    "price_6am": 0.485,
+    "result": "no",
+    "won": false
+  }
+]
