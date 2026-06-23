@@ -75,15 +75,21 @@ The fair value model (`model.py`) is a composite of three signals:
 3. **Empirical bucket prior** — historical win rate per (floor, cap) bucket
    from settled observations (≥5 samples), shifting fair value by up to ±15%.
 
-Backtesting (68 settled events, Mar–May 2026) showed the market-only Gaussian
-signal alone is unprofitable (best Sharpe -0.43 across parameter sweep). Adding
-the empirical prior and tuning entry time/edge threshold/Kelly fraction
-produced a backtested Sharpe of **+1.01** (in-sample P&L +$55.69 on a $100
-bankroll, out-of-sample +$6.03 — still positive but with significant decay,
-meaning the edge is real but modest and noisy on this sample size).
+**Data quality issue (found and fixed):** of 19 settled days collected so far,
+15 had to be discarded because the collector ran after market resolution —
+prices were already pulled toward the winning bucket (>90¢), so they don't
+reflect a genuine pre-resolution edge. Only 4 days had clean, pre-resolution
+prices. Backtesting on those 4 days produced 5 trades, a 40% win rate, -$2.39
+P&L, and a Sharpe of **-6.6**.
+
+This is a data quality problem, not evidence the model is unprofitable: the
+scheduler (`kalshi_daily.plist`) was firing too late in the day to catch
+prices before the market had effectively resolved. The schedule has been
+fixed to run at 9am PT, before resolution, so new observations going forward
+should be valid. We need roughly 200+ clean pre-resolution days before the
+backtest results are statistically meaningful — current numbers should be
+treated as not yet conclusive in either direction, not as a negative result.
 
 The bot trades small ($10 base size) and conservatively: a 15%+ edge combined
 with a 3°F+ market/NWS divergence triggers a live trade; smaller edges (5-15%)
-are paper-traded only. Known limitation: sample size (tens of events) is too
-small for high statistical confidence — treat current performance as
-directional, not conclusive.
+are paper-traded only.
