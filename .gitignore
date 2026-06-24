@@ -11,3 +11,5 @@ kalshi_public.pem
 data/kalshi.db
 data/kalshi.db-shm
 data/kalshi.db-wal
+.env.save
+kalshi_public_new.pem
