@@ -22715,3 +22715,18 @@ Press CTRL+C to quit
  * Restarting with watchdog (fsevents)
  * Debugger is active!
  * Debugger PIN: 661-176-222
+127.0.0.1 - - [23/Jun/2026 23:48:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:48:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:48:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Jun/2026 23:48:57] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:49:56] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:50:56] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:51:56] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:52:56] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:53:57] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:54:56] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:55:59] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:56:56] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2026 23:58:55] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2026 00:00:59] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2026 00:02:55] "GET /api/data HTTP/1.1" 200 -

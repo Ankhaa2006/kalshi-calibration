@@ -4883,3 +4883,99 @@ P&L SUMMARY — LIVE TRADES
 🧮 Step 3: Running fair value model...
   ⚠️  Market near resolution — no signals today
   Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-24 00:00 UTC (12:00 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $0.00
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-24
+  NWS forecast: 81°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals
+============================================================
+KALSHI DAILY RUNNER
+Time: 2026-06-24 02:45 UTC (02:45 AM UTC)
+============================================================
+
+🌐 Step 0: Checking network...
+  Network ready
+
+🔄 Syncing CSV trades to SQLite...
+  26 rows processed (new inserts use INSERT OR IGNORE)
+
+📊 Step 1: Updating P&L...
+
+=======================================================
+P&L SUMMARY — LIVE TRADES
+=======================================================
+
+  Timestamp              Ticker                         Side    Cost      P&L Status
+  ------------------------------------------------------------------------------------------
+  2026-05-08 05:57 UTC   KXHIGHNY-26MAY08-T64           yes   $ 0.93   $+1.00  ✅ WIN
+  2026-05-08 06:03 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:05 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 1.22   $-0.09  ❌ LOSS
+  2026-05-08 06:08 UTC   KXHIGHNY-26MAY08-B64.5         no    $ 0.62   $-0.04  ❌ LOSS
+  2026-05-15 10:21 UTC   KXHIGHNY-26MAY15-B65.5         no    $ 1.53   $-1.53  ❌ LOSS
+  2026-05-17 11:59 UTC   KXHIGHNY-26MAY17-B87.5         no    $ 1.71   $-1.71  ❌ LOSS
+  2026-05-19 11:15 UTC   KXHIGHNY-26MAY19-B93.5         no    $ 2.88   $-2.88  ❌ LOSS
+  2026-05-20 09:51 UTC   KXHIGHNY-26MAY20-B93.5         no    $ 2.96   $-0.21  ❌ LOSS
+  2026-05-26 23:49 UTC   KXHIGHNY-26MAY27-B83.5         no    $ 1.04   $-0.07  ❌ LOSS
+  2026-05-27 14:12 UTC   KXHIGHNY-26MAY27-B79.5         no    $ 1.20   $-0.08  ❌ LOSS
+  2026-06-14 11:09 UTC   KXHIGHNY-26JUN14-B87.5         no    $ 0.90   $-0.90  ❌ LOSS
+
+  Total invested:  $16.21
+  Settled trades:  11
+  Pending trades:  0
+  Win rate:        1/11 (9%)
+  Realized P&L:    $-6.60
+  ROI:             -40.7%
+
+💰 Current balance: $0.00
+
+📥 Step 2: Collecting market data...
+  Target date: 2026-06-24
+  NWS forecast: 81°F
+  Already collected today
+
+🧮 Step 3: Running fair value model...
+  ⚠️  Market near resolution — no signals today
+  Run before noon ET for actionable signals

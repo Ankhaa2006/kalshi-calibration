@@ -3483,3 +3483,22 @@ Backfilling past results...
   Error backfilling KXHIGHNY-26JUN21-B86.5: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/KXHIGHNY-26JUN21-B86.5 (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
 
 Fetching open buckets...
+
+=== Collection Run — 2026-06-23 23:00 UTC ===
+
+Backfilling past results...
+
+Fetching open buckets...
+  Found 4 buckets for 2026-06-24
+
+Fetching NWS forecast...
+  NWS high: 81°F
+
+Saving observations...
+  84-85°  0.005  
+  82-83°  0.005  
+  80-81°  0.005  ← NWS
+  78-79°  0.005  
+
+  4 buckets processed (duplicates skipped by DB)
+Done!
