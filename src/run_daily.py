@@ -412,16 +412,26 @@ def place_order(ticker, side, count, price_cents, dry_run=True):
                   "simulated", client_order_id, dry_run=True)
         return True
 
+    ORDER_URL  = "https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders"
+    ORDER_PATH = "/trade-api/v2/portfolio/events/orders"
+    api_side   = "bid" if side == "yes" else "ask"
+    price_str  = f"{price_cents / 100:.4f}"
+
     order_data = {
-        "ticker":          ticker,
-        "action":          "buy",
-        "side":            side,
-        "count":           count,
-        "type":            "limit",
-        "yes_price":       price_cents if side == "yes" else 100 - price_cents,
-        "client_order_id": client_order_id
+        "ticker":                     ticker,
+        "side":                       api_side,
+        "count":                      count,
+        "price":                      price_str,
+        "time_in_force":              "good_till_canceled",
+        "self_trade_prevention_type": "taker_at_cross",
+        "post_only":                  False,
+        "cancel_order_on_pause":      False,
+        "reduce_only":                False,
+        "client_order_id":            client_order_id
     }
-    r = auth_post('/portfolio/orders', order_data)
+    r = requests.post(ORDER_URL,
+                      headers=make_headers('POST', ORDER_PATH),
+                      json=order_data, timeout=10)
 
     if r.status_code == 201:
         order    = r.json().get('order', {})
@@ -432,6 +442,7 @@ def place_order(ticker, side, count, price_cents, dry_run=True):
         return True
     else:
         print(f"    Status: FAILED ❌  {r.status_code} {r.text[:100]}")
+        print(f"    Full response: {r.text}")
         return False
 
 def log_trade(ticker, side, count, price_cents, cost,
